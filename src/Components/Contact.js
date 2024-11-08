@@ -6,7 +6,7 @@ import Footer from './Footer'
 
 const Contact = () => {
   return (
-    <div>
+    <div> 
         <Helmet>
           <title>Contact Us - Wildpunch Design & Digital</title>
         </Helmet>
