@@ -109,56 +109,56 @@ const Home = () => {
             <h4>Everyone has great Ideas, the world has always needed executioners. We are the right mix of</h4>
             <h2><b>Ideas, strategy, tech & execution.</b></h2>
             <div className="row g-xl-5 g-lg-4 g-3">
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Research</h4>
                   <p>Your brand's compass.</p>
                   <p>We find your north.</p>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Branding</h4>
                   <p>Your brand's soul.</p>
                   <p>We find your north.</p>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Advertising</h4>
                   <p>Your brand's compass.</p>
                   <p>We make it heard.</p>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Design</h4>
                   <p>Your brand's blueprint.</p>
                   <p>We find your north.</p>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Marketing</h4>
                   <p>Your brand's roadmap.</p>
                   <p>We chart the course.</p>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Digital</h4>
                   <p>Your brand's universe.</p>
                   <p>We create its galaxies.</p>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Films & Production</h4>
                   <p>Your brand's story.</p>
                   <p>We bring it to life.</p>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Inﬂuencer Marketing</h4>
                   <p>Your brand's compass.</p>
