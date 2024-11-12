@@ -42,7 +42,7 @@ a {
 .navbar-nav li a{
   color: #737373;
   font-family: Inter;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -57,7 +57,7 @@ a {
   color: #FFFFFF;
 }
 ul.navbar-nav {
-  height: 100vh;
+  height: 91vh;
   justify-content: center;
 }
 .first-section {
@@ -67,13 +67,17 @@ ul.navbar-nav {
   background-color: #000 !important;
 }
 .py-200{
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.py-300{
+  padding-top: 200px;
+  padding-bottom: 300px;
 }
 .main-head h1{
   color: #FFF;
   font-family: "Lexend Deca";
-  font-size: 50px;
+  font-size: 100px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -82,7 +86,7 @@ ul.navbar-nav {
 .main-head p{
   color: #FFF;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 45px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -90,12 +94,12 @@ ul.navbar-nav {
 .main-head h1 span{
   color: #FFF;
   font-family: "Lexend Deca";
-  font-size: 25px;
+  font-size: 50px;
   font-weight: 700;
 }
 .main-head h6{
   font-family: "Lexend Deca";
-  font-size: 18px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   width: -moz-fit-content;
@@ -107,7 +111,7 @@ ul.navbar-nav {
 .sec-section p{
   color: #000;
   font-family: "Lexend Deca";
-  font-size: 18px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   border-bottom: 1px solid #000;
@@ -117,7 +121,7 @@ ul.navbar-nav {
 .sec-section h2{
   color: #000;
   font-family: "Lexend Deca";
-  font-size: 40px;
+  font-size: 80px;
   margin-bottom: 30px;
   font-weight: 400;
 }
@@ -127,15 +131,16 @@ ul.navbar-nav {
 .sec-section h2 small{
   color: #000;
   font-family: "Lexend Deca";
-  font-size: 20px;
+  font-size: 45px;
   font-weight: 700;
+  line-height: 50px;
 }
 .sec-section a{
   color: #FFF;
   background-color: #000;
   padding: 10px 20px;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 22px;
   border: 1px solid #000;
   border-radius: 50px;
   font-weight: 600;
@@ -157,14 +162,14 @@ ul.navbar-nav {
 .work-one h5{
   color: #000;
   font-family: "Lexend Deca";
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 700;
   margin-bottom: 0;
 }
 .work-one h6{
   color: #000;
   font-family: Inter;
-  font-size: 15px;
+  font-size: 21px;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -180,7 +185,7 @@ p.mb-50{
 .sec-section h4{
   color: #FFF;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 45px;
   font-weight: 400;
 }
 .bg-third p{
@@ -193,17 +198,25 @@ p.mb-50{
 .research h4{
   color: #FFF;
   font-family: "Lexend Deca";
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 6px;
+  font-size: 45px !important;
+  font-weight: 700 !important;
+  margin-bottom: 6px !important;
+}
+.research h6{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 28px;
+  margin-bottom: 0;
+  border: 0;
+  font-weight: 600;
 }
 .research p{
   color: #FFF;
   font-family: Inter;
-  font-size: 18px;
-  margin-bottom: 0;
+  font-size: 20px !important;
+  margin-bottom: 0 !important;
   border: 0;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 .research ul{
   padding-left: 1rem;
@@ -213,7 +226,7 @@ p.mb-50{
 .research ul li{
   color: #FFF;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 21px;
   font-weight: 400;
   margin-bottom: 6px;
 }
@@ -235,13 +248,13 @@ p.mb-50{
   color: #FFF;
   font-family: "Lexend Deca";
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 23px;
   font-weight: 700;
 }
 .address p{
   color: #FFF;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 4px;
 }
@@ -249,7 +262,7 @@ p.mb-50{
   color: #FFF;
   margin-bottom: 18px;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 26px;
   font-weight: 700;
 }
 .address h5 a{
@@ -265,7 +278,7 @@ p.mb-50{
 .footer-link ul li a{
   color: #FFF;
   font-family: "Lexend Deca";
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   border-bottom: 1px solid #FFF;
 }
@@ -279,14 +292,14 @@ p.mb-50{
 .work-with-us h4{
   color: #FFF;
   font-family: "Lexend Deca";
-  font-size: 20px;
+  font-size: 40px;
   margin-bottom: 6px;
   font-weight: 700;
 }
 .work-with-us p a{
   color: #FFF;
   font-family: "Lexend Deca";
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   border-bottom: 1px solid #FFF;
 }
@@ -304,6 +317,7 @@ p.mb-50{
 }
 .social-link a{
   color: #FFF;
+  font-size: 24px;
 }
 .social-link a:hover{
   color: #FFC700;
@@ -322,20 +336,23 @@ textarea.form-control:focus{
   border-radius: 0;
   color: #A7A9AC;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
   padding-left: 0;
   padding-right: 0;
   scrollbar-width: none;
 }
+.footer-bottom{
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
 .footer-bottom p{
   color: #939598;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   text-align: end;
   margin-bottom: 0;
-  margin-top: 50px;
   padding-right: 20px;
 }
 .footer-bottom p a{
@@ -397,29 +414,29 @@ textarea.form-control:focus{
   margin-bottom: 20px;
 }
 .img-name img{
-  height: 100px;
+  height: 130px;
   width: 100%;
-  max-width: 100px;
+  max-width: 130px;
   border-radius: 50%;
   margin-right: 15px;
 }
 .name-post h5{
   color: #FFF;
   font-family: "Lexend Deca";
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
 }
 .name-post h6{
   color: #FFF;
   font-family: "Inter";
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 0;
 }
 .review p{
   color: #FFF;
   font-family: "Inter";
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -468,20 +485,25 @@ textarea.form-control:focus{
 .big-small p{
   border: none;
   margin-bottom: 0 !important;
+  color: #000;
+  font-family: "Lexend Deca";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
 }
 .education{
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 30px 25px;
 }
 .education p{
   color: #000;
   margin-bottom: 0;
   background-color: #FFF;
-  padding: 12px 20px;
+  padding: 24px 50px;
   border-radius: 50px;
   font-family: "Lexend Deca";
-  font-size: 20px !important;
+  font-size: 36px !important;
   font-weight: 700;
 }
 .wild-flex{
@@ -496,24 +518,80 @@ textarea.form-control:focus{
 
 /* 1680 */
 @media (max-width: 1700px) {
-
+  .review p {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
 }
 
 /* 1500 */
 @media (max-width: 1679px) {
-
+  .py-200 {
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+.sec-section h4 {
+  font-size: 40px;
+}
+.py-300 {
+  padding-top: 180px;
+  padding-bottom: 280px;
+}
+.research h4 {
+  font-size: 40px !important;
+  margin-bottom: 6px !important;
+}
+.name-post h6 {
+  font-size: 20px;
+}
+.name-post h5 {
+  font-size: 20px;
+}
+.img-name img {
+  height: 115px;
+  max-width: 115px;
+}
+.footer-bottom {
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+.research h6 {
+  font-size: 25px;
+}
+.sec-section h2 small {
+  font-size: 40px;
+  line-height: 45px;
+}
+.big-small p {
+  font-size: 22px;
+}
+.education p {
+  padding: 24px 50px;
+  font-size: 32px !important;
+}
 }
 
 /* 1440 */
 @media (max-width: 1499px) {
-
+  .navbar-nav li a {
+    font-size: 50px;
+}
 }
 
 /* 1280 */
 @media (max-width: 1439px) {
   .review p {
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 20px;
+}
+.education {
+  gap: 28px 22px;
+}
+.main-head h1 span {
+  font-size: 40px;
+}
+.hello-form input, .hello-form textarea {
+  font-size: 22px;
 }
 .first-section {
   padding-top: 84px;
@@ -525,33 +603,28 @@ textarea.form-control:focus{
   width: 180px;
   margin-bottom: 20px;
 }
-.address h5 {
-  margin-bottom: 18px;
-  font-size: 16px;
-  font-weight: 600;
-}
-.footer-link ul li a {
-  font-size: 16px;
-  font-weight: 600;
-}
 .work-with-us p a {
   font-size: 16px;
   font-weight: 600;
 }
 .py-200 {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 .main-head p {
-  font-size: 22px;
+  font-size: 40px;
+}
+.py-300 {
+  padding-top: 170px;
+  padding-bottom: 250px;
 }
 .main-head h1 {
-  font-size: 45px;
+  font-size: 70px;
   font-weight: 400;
   margin-bottom: 20px;
 }
 .sec-section h2 {
-  font-size: 36px;
+  font-size: 60px;
   margin-bottom: 30px;
 }
 .navbar-dark .navbar-toggler {
@@ -560,50 +633,136 @@ textarea.form-control:focus{
 }
 .footer-bottom p {
   font-size: 16px;
-  margin-top: 40px;
   padding-right: 20px;
+}
+.sec-section p {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.work-one h5 {
+  font-size: 24px;
+}
+.work-one h6 {
+  font-size: 18px;
+}
+.sec-section a {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.sec-section h4 {
+  font-size: 35px;
+}
+.research h4 {
+  font-size: 35px !important;
+  margin-bottom: 6px !important;
+}
+.img-name img {
+  height: 100px;
+  max-width: 100px;
+}
+.name-post h6 {
+  font-size: 18px;
+}
+.name-post h5 {
+  font-size: 18px;
+}
+.footer-bottom {
+  padding-bottom: 40px;
+  padding-top: 70px;
+}
+.find-us h6 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.address p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.address h5 {
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+.footer-link ul li a {
+  font-size: 22px;
+}
+.work-with-us p a {
+  font-size: 22px;
+}
+.social-link a {
+  font-size: 20px;
+}
+.work-with-us h4 {
+  font-size: 35px;
+  margin-bottom: 6px;
+}
+.education p {
+  padding: 20px 45px;
+  font-size: 28px !important;
+}
+.big-small p {
+  font-size: 20px !important;
+}
+.sec-section h2 small {
+  font-size: 36px;
+  line-height: 42px;
+}
+.research h6 {
+  font-size: 22px;
 }
 }
 
 /* 1025 */
 @media (max-width: 1279px) {
   .sec-section h2 {
-    font-size: 36px;
-    margin-bottom: 18px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.education {
+  gap: 25px 20px;
+}
+.main-head h1 span {
+  font-size: 35px;
+}
+.work-one h5 {
+  font-size: 22px;
+}
+.work-one h6 {
+  font-size: 16px;
+}
+.sec-section h4 {
+  font-size: 30px;
 }
 .review p {
-  font-size: 16px;
+  font-size: 22px;
   margin-bottom: 20px;
+}
+.hello-form input, .hello-form textarea {
+  font-size: 20px;
 }
 .img-name img {
   height: 80px;
   max-width: 80px;
   margin-right: 15px;
 }
-.name-post h6 {
-  font-size: 16px;
-}
 .py-200 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 .main-head h1 {
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 16px;
 }
 .main-head p {
-  font-size: 20px;
-}
-.sec-section h2 {
-  font-size: 32px;
-  margin-bottom: 18px;
+  font-size: 30px;
 }
 .research h4 {
-  font-size: 20px;
-  margin-bottom: 6px;
+  font-size: 25px !important;
+  margin-bottom: 6px !important;
 }
 .sec-section p {
-  font-size: 16px;
+  font-size: 22px;
   margin-bottom: 16px;
 }
 .main-head h6{
@@ -625,7 +784,49 @@ p.mb-50 {
   font-size: 35px;
 }
 .education p {
-  padding: 12px 20px;
+  padding: 16px 40px;
+  font-size: 24px !important;
+}
+.address p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.address h5 {
+  margin-bottom: 18px;
+  font-size: 18px;
+}
+.address p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.footer-link ul li a {
+  font-size: 20px;
+}
+.work-with-us p a {
+  font-size: 20px;
+}
+.work-with-us h4 {
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+.footer-bottom {
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+.research h6 {
+  font-size: 20px;
+}
+.research ul li {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+.sec-section h2 small {
+  font-size: 32px;
+  line-height: 35px;
+}
+.big-small p {
   font-size: 18px !important;
 }
 }
@@ -635,9 +836,34 @@ p.mb-50 {
   .mt-50 {
     margin-top: 40px;
   }
+  .education {
+    gap: 22px 18px;
+}
+  .main-head h1 span {
+    font-size: 30px;
+}
   .py-200 {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.py-300 {
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+.main-head h1 {
+  font-size: 50px;
+  margin-bottom: 16px;
+}
+.main-head p {
+  font-size: 25px;
+}
+.sec-section p {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.sec-section h2 {
+  font-size: 40px;
+  margin-bottom: 18px;
 }
 .marquee img {
   max-width: 130px;
@@ -645,12 +871,34 @@ p.mb-50 {
 }
 .footer-bottom p {
   font-size: 16px;
-  margin-top: 30px;
   padding-right: 20px;
 }
-.sec-section h2 {
-  font-size: 30px;
-  margin-bottom: 18px;
+.sec-section a {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+p.mb-50 {
+  margin-bottom: 40px;
+}
+.work-one h5 {
+  font-size: 20px;
+}
+.sec-section h4 {
+  font-size: 25px;
+}
+.research h4 {
+  font-size: 22px !important;
+  margin-bottom: 6px !important;
+}
+.review p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.hello-form input, .hello-form textarea {
+  font-size: 18px;
+}
+.footer-link ul li a {
+  font-size: 18px;
 }
 .footer-link ul li {
   margin-bottom: 16px;
@@ -660,8 +908,30 @@ p.mb-50 {
 }
 .find-us h6 {
   margin-bottom: 14px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
+}
+.address p {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.address h5 {
+  margin-bottom: 18px;
+  font-size: 16px;
+}
+.work-with-us h4 {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+.social-link a {
+  font-size: 18px;
+}
+.name-post h5 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.work-with-us p a {
+  font-size: 18px;
 }
 .navbar {
   padding: 15px 20px;
@@ -669,8 +939,26 @@ p.mb-50 {
 .first-section {
   padding-top: 74px;
 }
-.main-head h1 span {
-  font-size: 22px;
+.research h6 {
+  font-size: 18px;
+}
+.research ul {
+  margin-top: 15px;
+}
+.research ul li {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+.sec-section h2 small {
+  font-size: 28px;
+  line-height: 30px;
+}
+.big-small p {
+  font-size: 16px !important;
+}
+.education p {
+  padding: 14px 35px;
+  font-size: 22px !important;
 }
 }
 
@@ -680,31 +968,34 @@ p.mb-50 {
     height: 40px;
     width: 90px;
 }
+.education {
+  gap: 20px 16px;
+}
 .main-head h1 {
-  font-size: 36px;
+  font-size: 45px;
   margin-bottom: 16px;
 }
 .main-head p {
-  font-size: 18px;
+  font-size: 22px;
 }
 .sec-section h2 {
-  font-size: 28px;
+  font-size: 35px;
   margin-bottom: 18px;
 }
 .py-200 {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .work-one h5 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
 }
 .sec-section h4 {
-  font-size: 18px;
+  font-size: 22px;
 }
 .research h4 {
-  font-size: 18px;
-  margin-bottom: 6px;
+  font-size: 20px !important;
+  margin-bottom: 6px !important;
 }
 .marquee-item {
   flex: 0 0 auto;
@@ -715,7 +1006,6 @@ p.mb-50 {
 }
 .footer-bottom p {
   font-size: 16px;
-  margin-top: 30px;
   padding-right: 0;
   text-align: center;
 }
@@ -723,22 +1013,126 @@ p.mb-50 {
   padding-top: 64px;
 }
 .main-head h1 span {
-  font-size: 20px;
+  font-size: 25px;
 }
 .navbar-nav li a {
   font-size: 30px;
 }
 .education p {
-  padding: 10px 18px;
+  padding: 12px 25px;
   font-size: 18px !important;
+}
+.sec-section a {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.py-300 {
+  padding-top: 150px;
+  padding-bottom: 180px;
+}
+.footer-link ul li a {
+  font-size: 16px;
+}
+.work-with-us h4 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+.work-with-us p a {
+  font-size: 16px;
+}
+.name-post h5 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.name-post h6 {
+  font-size: 16px;
+}
+.sec-section h2 small {
+  font-size: 24px;
+  line-height: 30px;
 }
 }
 
 /* 576 */
 @media (max-width: 767px) {
   .education p {
-    padding: 10px 18px;
+    padding: 10px 20px;
     font-size: 16px !important;
+}
+.education {
+  gap: 18px 15px;
+}
+.review p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.py-300 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.main-head h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.main-head p {
+  font-size: 18px;
+}
+.py-200 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.sec-section h2 {
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+.sec-section p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+p.mb-50 {
+  margin-bottom: 40px;
+}
+.work-one h5 {
+  font-size: 16px;
+}
+.sec-section h4 {
+  font-size: 20px;
+}
+.research h4 {
+  font-size: 18px !important;
+  margin-bottom: 6px !important;
+}
+.research p {
+  font-size: 15px !important;
+  margin-bottom: 0 !important;
+}
+.sec-section a {
+  padding: 10px 20px;
+  font-size: 15px;
+}
+.hello-form input, .hello-form textarea {
+  font-size: 16px;
+}
+.footer-bottom {
+  padding-bottom: 35px;
+  padding-top: 55px;
+}
+.work-one h6 {
+  font-size: 15px;
+}
+.main-head h1 span {
+  font-size: 22px;
+}
+.research h6 {
+  font-size: 16px;
+}
+.research ul li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.sec-section h2 small {
+  font-size: 20px;
+  line-height: 25px;
 }
 }
 
@@ -746,6 +1140,9 @@ p.mb-50 {
 @media (max-width: 575px) {
   .navbar {
     padding: 10px 0;
+}
+.main-head h1 span {
+  font-size: 20px;
 }
 .p-20 {
   padding: 0;
@@ -779,15 +1176,34 @@ p.mb-50 {
 .first-section {
   padding-top: 58px;
 }
-.sec-section a {
-  padding: 8px 20px;
-  font-size: 14px;
-}
 p.mb-50 {
   margin-bottom: 30px;
 }
 .navbar-nav li a {
   font-size: 28px;
+}
+.main-head h1 {
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+.py-300 {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.py-200 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.main-head p {
+  font-size: 16px;
+}
+.sec-section h2 {
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+.education p {
+  padding: 10px 18px;
+  font-size: 16px !important;
 }
 }
 
@@ -795,7 +1211,17 @@ p.mb-50 {
 @media (max-width: 524px) {
   .footer-bottom p {
     font-size: 15px;
-    margin-top: 30px;
+}
+.main-head h1 span {
+  font-size: 19px;
+}
+.sec-section h2 small {
+  font-size: 18px;
+  line-height: 20px;
+}
+.education p {
+  padding: 8px 16px;
+  font-size: 16px !important;
 }
 }
 
@@ -805,14 +1231,19 @@ p.mb-50 {
     font-size: 34px;
     margin-bottom: 16px;
 }
-.main-head h1 span {
-  font-size: 19px;
+.work-with-us h4 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+.py-300 {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .main-head p {
   font-size: 16px;
 }
 .sec-section p {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 14px;
 }
 .main-head h6{
@@ -829,8 +1260,8 @@ p.mb-50 {
   font-size: 16px;
 }
 .research h4 {
-  font-size: 18px;
-  margin-bottom: 6px;
+  font-size: 18px !important;
+  margin-bottom: 6px !important;
 }
 .custom-arrow.next-arrow {
   bottom: -30px;
@@ -866,6 +1297,7 @@ p.mb-50 {
 }
 .sec-section h2 small {
   font-size: 18px;
+  line-height: normal;
 }
 }
 
@@ -875,9 +1307,23 @@ p.mb-50 {
     font-size: 32px;
     margin-bottom: 16px;
 }
+.education {
+  gap: 15px 12px;
+}
+.main-head h1 span {
+  font-size: 17px;
+}
+.py-300 {
+  padding-top: 85px;
+  padding-bottom: 95px;
+}
+.footer-bottom {
+  padding-bottom: 30px;
+  padding-top: 45px;
+}
 .sec-section h2 {
   font-size: 25px;
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 .mt-50 {
   margin-top: 35px;
@@ -903,7 +1349,6 @@ p.mb-50 {
 }
 .footer-bottom p {
   font-size: 14px;
-  margin-top: 25px;
 }
 .navbar-nav li a {
   font-size: 26px;
@@ -915,6 +1360,17 @@ p.mb-50 {
   .py-200 {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+.main-head h1 span {
+  font-size: 15px;
+}
+.py-300 {
+  padding-top: 75px;
+  padding-bottom: 85px;
+}
+.footer-bottom {
+  padding-bottom: 30px;
+  padding-top: 40px;
 }
 .main-head h1 {
   font-size: 28px;

@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className='py-200 bg-dark'>
+    <div className='py-200 pb-0 bg-dark'>
         <div className="container-fluid">
             <div className="row p-20 g-lg-4 g-3">
-                <div className="col-lg-3 col-md-6 col-12 footer-logo">
+                <div className="col-lg-3 col-12 col-12 footer-logo">
                     <Link to={"/"}><img src={logo} alt="" className="img-fluid" /></Link>
                 </div>
-                <div className="col-lg-3 col-md-6 col-12">
+                <div className="col-lg-3 col-md-4 col-12">
                     <div className='find-us'>
                         <h6>FIND US</h6>
                         <div className="address">
@@ -27,7 +27,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-12">
+                <div className="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div className='footer-link'>
                         <ul>
                             <li><Link to={"#"}>ABOUT US</Link></li>
@@ -37,7 +37,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-12">
+                <div className="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div className='work-with-us'>
                         <h4>Work with us</h4>
                         <p><a href="mailto:jobs@wildpunch.in">jobs@wildpunch.in</a></p>

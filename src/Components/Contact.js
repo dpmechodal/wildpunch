@@ -27,25 +27,25 @@ const Contact = () => {
               </div>
               <div className="col-12">
                 <form className='hello-form row g-md-3 g-0'>
-                  <div class="mb-3 col-md-6">
+                  <div class="mb-md-4 mb-3 pe-md-4 col-md-6">
                     <input type="text" class="form-control" placeholder='First Name'/>
                   </div>
-                  <div class="mb-3 col-md-6">
+                  <div class="mb-md-4 mb-3 ps-md-4 col-md-6">
                     <input type="text" class="form-control" placeholder='Last Name'/>
                   </div>
-                  <div class="mb-3 col-md-6">
+                  <div class="mb-md-4 mb-3 pe-md-4 col-md-6">
                     <input type="email" class="form-control" placeholder='Email'/>
                   </div>
-                  <div class="mb-3 col-md-6">
+                  <div class="mb-md-4 mb-3 ps-md-4 col-md-6">
                     <input type="text" class="form-control" placeholder='Company'/>
                   </div>
-                  <div class="mb-3 col-md-6">
+                  <div class="mb-md-4 mb-3 pe-md-4 col-md-6">
                     <input type="text" class="form-control" placeholder='Your Role'/>
                   </div>
-                  <div class="mb-3 col-md-6">
+                  <div class="mb-md-4 mb-3 ps-md-4 col-md-6">
                     <input type="text" class="form-control" placeholder='Your Industry'/>
                   </div>
-                  <div class="mb-3">
+                  <div class="mb-md-4 mb-3">
                     <input type="text" class="form-control" placeholder='How can we help?'/>
                   </div>
                   <div className='mt-lg-5 mt-4'>

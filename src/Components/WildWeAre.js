@@ -52,12 +52,12 @@ const WildWeAre = () => {
         </div>
         <div className="sec-section bg-third">
           <div className="container py-200">
-            <div className="row g-xl-5 g-lg-4 g-3">
+            <div className="row g-xl-5 g-4">
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Research</h4>
-                  <p>Your brand's compass.</p>
-                  <p>We find your north.</p>
+                  <h6>Your brand's compass.</h6>
+                  <h6>We find your north.</h6>
                   <ul>
                     <li>Market Analysis</li>
                     <li>Audience Research</li>
@@ -70,8 +70,8 @@ const WildWeAre = () => {
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Branding</h4>
-                  <p>Your brand's soul.</p>
-                  <p>We find your north.</p>
+                  <h6>Your brand's soul.</h6>
+                  <h6>We find your north.</h6>
                   <ul>
                     <li>Brand Identity Design</li>
                     <li>Naming & Verbal Strategy</li>
@@ -84,8 +84,8 @@ const WildWeAre = () => {
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Advertising</h4>
-                  <p>Your brand's compass.</p>
-                  <p>We make it heard.</p>
+                  <h6>Your brand's compass.</h6>
+                  <h6>We make it heard.</h6>
                   <ul>
                     <li>Media Planning</li>
                     <li>Outdoor Advertising</li>
@@ -98,8 +98,8 @@ const WildWeAre = () => {
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Design</h4>
-                  <p>Your brand's blueprint.</p>
-                  <p>We find your north.</p>
+                  <h6>Your brand's blueprint.</h6>
+                  <h6>We find your north.</h6>
                   <ul>
                     <li>Graphic Design</li>
                     <li>Print Design</li>
@@ -112,8 +112,8 @@ const WildWeAre = () => {
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Marketing</h4>
-                  <p>Your brand's roadmap.</p>
-                  <p>We chart the course.</p>
+                  <h6>Your brand's roadmap.</h6>
+                  <h6>We chart the course.</h6>
                   <ul>
                     <li>Integrated Campaign Strategy</li>
                     <li>Content Marketing</li>
@@ -126,8 +126,8 @@ const WildWeAre = () => {
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Digital</h4>
-                  <p>Your brand's universe.</p>
-                  <p>We create its galaxies.</p>
+                  <h6>Your brand's universe.</h6>
+                  <h6>We create its galaxies.</h6>
                   <ul>
                     <li>Search Engine Optimization (SEO)</li>
                     <li>Search Engine Marketing (SEM)</li>
@@ -140,8 +140,8 @@ const WildWeAre = () => {
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Films & Production</h4>
-                  <p>Your brand's story.</p>
-                  <p>We bring it to life.</p>
+                  <h6>Your brand's story.</h6>
+                  <h6>We bring it to life.</h6>
                   <ul>
                     <li>Scriptwriting and Storyboarding</li>
                     <li>Casting and Talent Coordination</li>
@@ -153,9 +153,9 @@ const WildWeAre = () => {
               </div>
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
-                  <h4>Inﬂuencer Marketing</h4>
-                  <p>Your brand's compass.</p>
-                  <p>We find your north.</p>
+                  <h4>Influencer Marketing</h4>
+                  <h6>Your brand's compass.</h6>
+                  <h6>We find your north.</h6>
                   <ul>
                     <li>Influencer Identification</li>
                     <li>Content Creation</li>
@@ -181,8 +181,8 @@ const WildWeAre = () => {
         </div>
         <div className="bg-four">
             <div className="container py-200 sec-section">
-                <div className="row g-xl-5 g-lg-4 g-3">
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="row g-xl-5 g-4">
+                    <div className="col-xl-3 col-lg-4 col-md-6 col-12">
                         <div className="sec-section">
                             <div className="big-small">
                                 <h2><b>W</b><small>eave<br/>Insights</small></h2>
@@ -196,7 +196,7 @@ const WildWeAre = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div className="col-xl-3 col-lg-4 col-md-6 col-12">
                         <div className="sec-section">
                             <div className="big-small">
                                 <h2><b>I</b><small>gnite<br/>Imagination</small></h2>
@@ -210,7 +210,7 @@ const WildWeAre = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div className="col-xl-3 col-lg-4 col-md-6 col-12">
                         <div className="sec-section">
                             <div className="big-small">
                                 <h2><b>L</b><small>imitless<br/>Innovation</small></h2>
@@ -226,7 +226,7 @@ const WildWeAre = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div className="col-xl-3 col-lg-4 col-md-6 col-12">
                         <div className="sec-section">
                             <div className="big-small">
                                 <h2><b>D</b><small>ynamite<br/>Delivery</small></h2>

@@ -44,9 +44,9 @@ const Home = () => {
       </Helmet>
         <Header/>
         <div className="first-section bg-dark">
-          <div className="container py-200 main-head">
+          <div className="container py-300 main-head">
             <h1>Catalysts for change<br/>Agitators for Growth.</h1>
-            <p className='mb-0'>We're the spark that ignites brands. As agents of change, we stir the pot, challenge the norm, and disrupt industries.</p>
+            <p className='mb-0'>We're the spark that ignites brands. As agents of change,<br/> we stir the pot, challenge the norm,<br/> and disrupt industries.</p>
           </div>
         </div>
         <div className="sec-section bg-second">
@@ -108,7 +108,7 @@ const Home = () => {
             <p>WHAT WE DO</p>
             <h4>Everyone has great Ideas, the world has always needed executioners. We are the right mix of</h4>
             <h2><b>Ideas, strategy, tech & execution.</b></h2>
-            <div className="row g-xl-5 g-lg-4 g-3">
+            <div className="row g-xl-5 g-4">
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
                   <h4>Research</h4>
@@ -160,7 +160,7 @@ const Home = () => {
               </div>
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="research">
-                  <h4>Inﬂuencer Marketing</h4>
+                  <h4>Influencer Marketing</h4>
                   <p>Your brand's compass.</p>
                   <p>We find your north.</p>
                 </div>
