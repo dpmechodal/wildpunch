@@ -27,7 +27,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div className='footer-link'>
                         <ul>
                             <li><Link to={"#"}>ABOUT US</Link></li>
@@ -37,7 +37,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div className='work-with-us'>
                         <h4>Work with us</h4>
                         <p><a href="mailto:jobs@wildpunch.in">jobs@wildpunch.in</a></p>
