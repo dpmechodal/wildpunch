@@ -254,13 +254,13 @@ p.mb-50{
   color: #FFF;
   font-family: "Lexend Deca";
   margin-bottom: 20px;
-  font-size: 23px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
 }
 .address p{
   color: #FFF;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: 4px;
 }
@@ -268,8 +268,8 @@ p.mb-50{
   color: #FFF;
   margin-bottom: 18px;
   font-family: Inter;
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
 }
 .address h5 a{
   color: #FFF;
@@ -284,7 +284,7 @@ p.mb-50{
 .footer-link ul li a{
   color: #FFF;
   font-family: "Lexend Deca";
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   border-bottom: 1px solid #FFF;
 }
@@ -298,14 +298,14 @@ p.mb-50{
 .work-with-us h4{
   color: #FFF;
   font-family: "Lexend Deca";
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 6px;
-  font-weight: 700;
+  font-weight: 600;
 }
 .work-with-us p a{
   color: #FFF;
   font-family: "Lexend Deca";
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   border-bottom: 1px solid #FFF;
 }
@@ -616,10 +616,6 @@ textarea.form-control:focus{
   width: 180px;
   margin-bottom: 20px;
 }
-.work-with-us p a {
-  font-size: 16px;
-  font-weight: 600;
-}
 .py-200 {
   padding-top: 150px;
   padding-bottom: 150px;
@@ -689,7 +685,7 @@ textarea.form-control:focus{
   font-size: 20px;
 }
 .address p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: 4px;
 }
@@ -698,16 +694,17 @@ textarea.form-control:focus{
   font-size: 20px;
 }
 .footer-link ul li a {
-  font-size: 22px;
+  font-size: 20px;
 }
 .work-with-us p a {
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 600;
 }
 .social-link a {
   font-size: 20px;
 }
 .work-with-us h4 {
-  font-size: 35px;
+  font-size: 28px;
   margin-bottom: 6px;
 }
 .education p {
@@ -821,7 +818,7 @@ p.mb-50 {
   font-size: 20px;
 }
 .work-with-us h4 {
-  font-size: 30px;
+  font-size: 26px;
   margin-bottom: 6px;
 }
 .footer-bottom {
@@ -922,7 +919,7 @@ p.mb-50 {
 .find-us h6 {
   margin-bottom: 14px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
 }
 .address p {
   font-size: 16px;
