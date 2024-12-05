@@ -91,6 +91,14 @@ ul.navbar-nav {
   font-weight: 400;
   line-height: normal;
 }
+.main-foot p{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .main-head h1 span{
   color: #FFF;
   font-family: "Lexend Deca";
@@ -526,6 +534,28 @@ textarea.form-control:focus{
 .work-one:hover {
   box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.15);
 }
+.address {
+  margin-right: 100px;
+}
+.people-card{
+
+}
+.people-card img{
+  margin-bottom: 15px;
+  width: 100%;
+}
+.people-card h5{
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.people-card h6{
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
 
 /* media  */
 
@@ -597,6 +627,15 @@ textarea.form-control:focus{
     font-size: 24px;
     margin-bottom: 20px;
 }
+.people-card h5 {
+  font-size: 22px;
+}
+.people-card h6 {
+  font-size: 22px;
+}
+.address {
+  margin-right: 50px;
+}
 .education {
   gap: 28px 22px;
 }
@@ -622,6 +661,9 @@ textarea.form-control:focus{
 }
 .main-head p {
   font-size: 40px;
+}
+.main-foot p{
+  font-size: 24px;
 }
 .py-300 {
   padding-top: 170px;
@@ -729,6 +771,16 @@ textarea.form-control:focus{
     font-size: 50px;
     margin-bottom: 20px;
 }
+
+.people-card h5 {
+  font-size: 18px;
+}
+.people-card h6 {
+  font-size: 18px;
+}
+.address {
+  margin-right: 20px;
+}
 .education {
   gap: 25px 20px;
 }
@@ -766,6 +818,9 @@ textarea.form-control:focus{
 }
 .main-head p {
   font-size: 30px;
+}
+.main-foot p{
+  font-size: 22px;
 }
 .research h4 {
   font-size: 25px !important;
@@ -866,6 +921,9 @@ p.mb-50 {
 }
 .main-head p {
   font-size: 25px;
+}
+.main-foot p{
+  font-size: 20px;
 }
 .sec-section p {
   font-size: 20px;
@@ -988,6 +1046,9 @@ p.mb-50 {
 .main-head p {
   font-size: 22px;
 }
+.main-foot p{
+  font-size: 20px;
+}
 .sec-section h2 {
   font-size: 35px;
   margin-bottom: 18px;
@@ -1069,6 +1130,9 @@ p.mb-50 {
     padding: 10px 20px;
     font-size: 16px !important;
 }
+.address {
+  margin-right: 0;
+}
 .education {
   gap: 18px 15px;
 }
@@ -1085,6 +1149,9 @@ p.mb-50 {
   margin-bottom: 16px;
 }
 .main-head p {
+  font-size: 18px;
+}
+.main-foot p{
   font-size: 18px;
 }
 .py-200 {

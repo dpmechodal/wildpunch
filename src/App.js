@@ -3,8 +3,9 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Scrolltotop from './Scrolltotop';
 import Home from './Components/Home';
-import WildWeAre from './Components/WildWeAre';
+import WildWeDo from './Components/WildWeDo';
 import Contact from './Components/Contact';
+import WildWeAre from './Components/WildWeAre';
 
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
       <Scrolltotop/>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/WildWeAre' element={<WildWeAre/>}/>
+          <Route path='/WildWeDo' element={<WildWeDo/>}/>
           <Route path='/Contact' element={<Contact/>}/>
+          <Route path='/WildWeAre' element={<WildWeAre/>}/>
         </Routes>
       </Router>
     </div>
