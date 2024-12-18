@@ -337,7 +337,8 @@ p.mb-50{
   color: #FFC700;
 }
 input.form-control:focus,
-textarea.form-control:focus{
+textarea.form-control:focus,
+select.form-select:focus{
   box-shadow: none;
   border-color: #A7A9AC;
 }
@@ -348,13 +349,30 @@ textarea.form-control:focus{
   border-right: none;
   border-left: none;
   border-radius: 0;
-  color: #A7A9AC;
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
   padding-left: 0;
   padding-right: 0;
   scrollbar-width: none;
+  color: #000;
+}
+select.form-select{
+  border-bottom: 2px solid #A7A9AC;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 0;
+  padding-right: 0;
+  scrollbar-width: none;
+  color: #000;
+}
+select.form-select option{
+  padding: 4px 10px;
 }
 .footer-bottom{
   padding-bottom: 50px;
@@ -555,6 +573,25 @@ textarea.form-control:focus{
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 400;
+}
+.upload-button{
+  position: relative;
+}
+.upload-button input{
+  position: absolute;
+  opacity: 0;
+}
+.upload-button a{
+  background-color: #D0D3D6;
+  border: 1px solid #D0D3D6;
+  color: #000000;
+  display: block;
+  text-align: center;
+}
+.upload-button a:hover{
+  background-color: #D0D3D6;
+  border: 1px solid #D0D3D6;
+  color: #000000;
 }
 
 /* media  */

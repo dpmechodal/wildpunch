@@ -6,6 +6,8 @@ import Home from './Components/Home';
 import WildWeDo from './Components/WildWeDo';
 import Contact from './Components/Contact';
 import WildWeAre from './Components/WildWeAre';
+import WildWildWork from './Components/WildWildWork';
+import BeWildWithUs from './Components/BeWildWithUs';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
           <Route path='/WildWeDo' element={<WildWeDo/>}/>
           <Route path='/Contact' element={<Contact/>}/>
           <Route path='/WildWeAre' element={<WildWeAre/>}/>
+          <Route path='/WildWildWork' element={<WildWildWork/>}/>
+          <Route path='/BeWildWithUs' element={<BeWildWithUs/>}/>
         </Routes>
       </Router>
     </div>
