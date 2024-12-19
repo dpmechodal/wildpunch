@@ -6,6 +6,7 @@ import People from './People'
 import Testimonials from './Testimonials'
 import Header from './Header'
 import Footer from './Footer'
+import MobilePeople from './MobilePeople';
 
 const WildWeAre = () => {
   return (
@@ -52,7 +53,12 @@ and everything in between...</h4>
             everything, everyday!</h4>
           </div>
         <div className="container-fluid py-200 pt-0 px-0">
-        <People/>
+          <div className='d-sm-block d-none'>
+            <People/>
+          </div>
+          <div className='d-sm-none d-block'>
+            <MobilePeople/>
+          </div>
         </div>
         </div>
         <div className="sec-section bg-third">

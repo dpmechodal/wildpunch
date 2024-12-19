@@ -20,6 +20,16 @@ const BeWildWithUs = () => {
             <h2 className='mb-0'><b>Turn your wild ideas into game-changing realities.</b></h2>
           </div>
         </div>
+        <div className="sec-section bg-second">
+          <div className="container py-200">
+            <h4 class="text-black mb-0">We get it, <br/>
+finding a career that clicks can feel like a
+treasure hunt. Thatʼs why weʼre here to make
+the ride smoother, with opportunities as wild as
+your ambitions and a workplace that keeps you
+buzzing every single day.</h4>
+          </div>
+        </div>
         <div className="sec-section bg-four">
           <div className="container py-200">
             <div className="row g-lg-4 g-3 align-items-center">
@@ -58,7 +68,7 @@ const BeWildWithUs = () => {
                         <a href="#"><i class="fa-solid fa-paperclip"></i></a>
                     </div>
                     <div className='mt-lg-5 mt-4'>
-                    <Link to={"#"}>SUBMIT</Link>
+                    <Link to={"#"} >SUBMIT</Link>
                     </div>
                 </form>
                 </div>

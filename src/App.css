@@ -555,9 +555,6 @@ select.form-select option{
 .address {
   margin-right: 100px;
 }
-.people-card{
-
-}
 .people-card img{
   margin-bottom: 15px;
   width: 100%;
@@ -592,6 +589,11 @@ select.form-select option{
   background-color: #D0D3D6;
   border: 1px solid #D0D3D6;
   color: #000000;
+}
+.mobile-people {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px 15px;
 }
 
 /* media  */
@@ -679,7 +681,7 @@ select.form-select option{
 .main-head h1 span {
   font-size: 40px;
 }
-.hello-form input, .hello-form textarea {
+.hello-form input, .hello-form textarea, select.form-select {
   font-size: 22px;
 }
 .first-section {
@@ -837,7 +839,7 @@ select.form-select option{
   font-size: 22px;
   margin-bottom: 20px;
 }
-.hello-form input, .hello-form textarea {
+.hello-form input, .hello-form textarea, select.form-select {
   font-size: 20px;
 }
 .img-name img {
@@ -999,7 +1001,7 @@ p.mb-50 {
   font-size: 20px;
   margin-bottom: 20px;
 }
-.hello-form input, .hello-form textarea {
+.hello-form input, .hello-form textarea, select.form-select {
   font-size: 18px;
 }
 .footer-link ul li a {
@@ -1224,7 +1226,7 @@ p.mb-50 {
   padding: 10px 20px;
   font-size: 15px;
 }
-.hello-form input, .hello-form textarea {
+.hello-form input, .hello-form textarea, select.form-select {
   font-size: 16px;
 }
 .footer-bottom {
@@ -1255,11 +1257,14 @@ p.mb-50 {
   .navbar {
     padding: 15px 0;
 }
+.people-card h5 {
+  font-size: 14px;
+}
+.people-card h6 {
+  font-size: 13px;
+}
 .main-head h1 span {
   font-size: 20px;
-}
-form.hello-form {
-  padding: 0 20px;
 }
 .p-20 {
   padding: 0;
@@ -1348,6 +1353,12 @@ p.mb-50 {
     font-size: 34px;
     margin-bottom: 16px;
 }
+.people-card h5 {
+  font-size: 14px;
+}
+.people-card h6 {
+  font-size: 13px;
+}
 .work-with-us h4 {
   font-size: 20px;
   margin-bottom: 6px;
@@ -1416,6 +1427,10 @@ p.mb-50 {
   font-size: 18px;
   line-height: normal;
 }
+.navbar-nav li {
+  text-align: center;
+  margin: 12px 5px;
+}
 }
 
 /* 375 */
@@ -1473,9 +1488,6 @@ p.mb-50 {
 .social-link {
   gap: 15px;
 }
-form.hello-form {
-  padding: 0 15px;
-}
 .hw-img img {
   height: 90px;
   width: 110px;
@@ -1514,7 +1526,7 @@ form.hello-form {
 .testi-box {
   padding: 15px;
 }
-.hello-form input, .hello-form textarea {
+.hello-form input, .hello-form textarea, select.form-select {
   font-size: 15px;
 }
 .navbar-nav li a {
