@@ -18,8 +18,9 @@ const WildWeAre = () => {
         <div className="sec-section bg-third bg-black first-section">
           <div className="container py-200">
             <p>WILD WE ARE</p>
-            <h2 className='mb-0'><b>Not just an ad agency,
+            <h2 className='mb-0 extra-size d-sm-block d-none'><b>Not just an ad agency, <br/>
             we add more to your brand.</b></h2>
+            <h2 className='mb-0 extra-size d-sm-none d-block'><b>Not just an <br/>ad agency, <br/>we add more <br/>to your brand.</b></h2>
           </div>
         </div>
         <div className="sec-section bg-four">
@@ -37,7 +38,7 @@ need, We advise what's right for you. We are not an agency,
 we work as your partners. We are objective driven, problem
 solvers. Like there are in Hollywood, think of us as fixers in the
 world of Advertising & Marketing. What to say,</h4>
-                <h2>We are a <b>Wild Bunch,</b></h2>
+                <h2 className='mb-0'>We are a <b>Wild Bunch,</b></h2>
                 <h2>at <b>Wildpunch.</b></h2>
               </div>
             </div>
@@ -72,8 +73,8 @@ and everything in between...</h4>
         <div className="sec-section bg-secound">
           <div className="container py-200">
             <p>Our clients are as Wild as us,</p>
-            <h2 className='mb-0'><b>They can’t say
-what we talk about, so they
+            <h2 className='mb-0 extra-sec-head'><b>They can’t say <br/>
+what we talk about, so they <br/>
 decided to drop facts.</b></h2>
           </div>
         </div>        
@@ -83,7 +84,7 @@ decided to drop facts.</b></h2>
         <div className="bg-third">
           <div className="container py-200 main-head main-foot">
             <div className="wild-flex">
-                <h1 className='mb-0'><span>LET’S TALK.</span><br/>Got a project?</h1>
+                <h1 className='mb-0 extra-size'><span>LET’S TALK.</span><br/>Got a project?</h1>
                 <div className='sec-section d-flex'>
                     <a href="/Contact">Contact Us <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>

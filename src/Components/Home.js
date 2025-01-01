@@ -45,8 +45,8 @@ const Home = () => {
         <Header/>
         <div className="first-section bg-dark">
           <div className="container py-300 main-head">
-            <h1>Catalysts for change<br/>Agitators for Growth.</h1>
-            <p className='mb-0'>We're the spark that ignites brands. As agents of change,<br/> we stir the pot, challenge the norm,<br/> and disrupt industries.</p>
+            <h1 className='extra-size'>Catalysts for change<br/>Agitators for Growth.</h1>
+            <p className='mb-0'>We're the spark that ignites brands.<br/> As agents of change, we stir the pot,<br/> challenge the norm, and disrupt industries.</p>
           </div>
         </div>
         <div className="sec-section bg-second">
@@ -72,29 +72,29 @@ const Home = () => {
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="work-one">
                   <img src={worktwo} className='img-fluid' alt="" />
-                  <h5>KOKAM PLY</h5>
+                  <h5>JABRA</h5>
                   <h6>Branding, Print, Digital</h6>
                 </div>
               </div>
               <div className="col-12">
                 <div className="work-one">
                   <img src={workthree} className='img-fluid' alt="" />
-                  <h5>KOKAM PLY</h5>
-                  <h6>Branding, Print, Digital</h6>
+                  <h5>MICROLIT</h5>
+                  <h6>Print, Digital</h6>
                 </div>
               </div>
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="work-one">
                   <img src={workfour} className='img-fluid' alt="" />
-                  <h5>KOKAM PLY</h5>
+                  <h5>TRIDENT REALTY</h5>
                   <h6>Branding, Print, Digital</h6>
                 </div>
               </div>
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="work-one">
                   <img src={workfive} className='img-fluid' alt="" />
-                  <h5>KOKAM PLY</h5>
-                  <h6>Branding, Print, Digital</h6>
+                  <h5>SPRINGTEK</h5>
+                  <h6>Print, Digital</h6>
                 </div>
               </div>
             </div>
@@ -177,76 +177,76 @@ const Home = () => {
             <h2><b>What We PUNCHED</b></h2>
             <h4 className='text-black'>Every Brandʼs Different, Every Category Excites Us, <b>Nothing is Boring!</b></h4>
             <div className="row align-items-center mt-1 g-lg-5 g-4 hw-img">
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={a} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={b} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={c} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={d} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={e} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={f} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={g} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={h} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={i} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={j} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={k} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={l} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={m} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={n} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={o} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={p} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={q} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={r} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={s} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={t} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={u} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={v} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={w} alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
                 <img src={x} alt="" className="img-fluid" />
               </div>
             </div>
@@ -254,7 +254,7 @@ const Home = () => {
         </div>
         <div className="sec-section bg-four">
           <div className="container py-200">
-            <p>WILDPUNCH AT WORK</p>
+            <p>HOW WE DO IT IN THE WILD</p>
             <h2><b>The WILD Approach</b></h2>
             <h4 className='text-black'>At Wildpunch, we believe that extraordinary results stem from an extraordinary process.</h4>
             <div className='mt-50'>

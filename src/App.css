@@ -23,7 +23,7 @@ a {
   left: 0;
   z-index: 9;
 }
-.navbar-dark .navbar-toggler {
+.navbar-toggler {
   color: #FFF;
   font-size: 20px;
   font-weight: 600;
@@ -32,9 +32,9 @@ a {
   padding: 10px 22px;
   font-family: Inter;
 }
-.navbar-dark .navbar-toggler:hover {
-  color: #FFC700;
-  border: 1px solid #FFC700;
+.navbar-toggler:hover {
+  color: #FFF;
+  border: 1px solid #FFF;
 }
 .navbar-toggler:focus {
   box-shadow: none;
@@ -43,7 +43,7 @@ a {
   color: #737373;
   font-family: Inter;
   font-size: 60px;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-nav li{
@@ -240,13 +240,12 @@ p.mb-50{
 }
 .hw-img img{
   height: 80px;
-  mix-blend-mode: luminosity;
   width: 120px;
 }
 .hw-img img:hover{
   transition: 0.5s;
   transform: scale(1.2);
-  mix-blend-mode: unset;
+  mix-blend-mode: luminosity;
 }
 .bg-four{
   background-color: #FFC700;
@@ -356,6 +355,7 @@ select.form-select:focus{
   padding-right: 0;
   scrollbar-width: none;
   color: #000;
+  font-family: "Lexend Deca";
 }
 select.form-select{
   border-bottom: 2px solid #A7A9AC;
@@ -366,10 +366,11 @@ select.form-select{
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
-  padding-left: 0;
-  padding-right: 0;
+  /* padding-left: 0;
+  padding-right: 0; */
   scrollbar-width: none;
   color: #000;
+  font-family: "Lexend Deca";
 }
 select.form-select option{
   padding: 4px 10px;
@@ -546,11 +547,12 @@ select.form-select option{
   gap: 20px;
 }
 .work-one {
-  padding: 15px;
-  border: 1px solid rgb(48 48 48 / 20%);
+  /* padding: 15px;
+  border: 1px solid rgb(48 48 48 / 20%); */
+  margin-bottom: 20px;
 }
 .work-one:hover {
-  box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.15); */
 }
 .address {
   margin-right: 100px;
@@ -581,9 +583,11 @@ select.form-select option{
 .upload-button a{
   background-color: #D0D3D6;
   border: 1px solid #D0D3D6;
-  color: #000000;
+  color: #5e5e5e;
   display: block;
-  text-align: center;
+  text-align: start;
+  font-weight: 400;
+  font-family: "Lexend Deca";
 }
 .upload-button a:hover{
   background-color: #D0D3D6;
@@ -594,6 +598,20 @@ select.form-select option{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px 15px;
+}
+
+.form-select option {
+  background-color: #dfe6e9;
+  color: #333;
+  padding: 10px;
+}
+
+select.form-select option:hover {
+  background-color: #12af1a !important;
+  color: #fff;
+}
+.bg-nav{
+  background-color: #303030;
 }
 
 /* media  */
@@ -717,7 +735,7 @@ select.form-select option{
   font-size: 60px;
   margin-bottom: 30px;
 }
-.navbar-dark .navbar-toggler {
+.navbar-toggler {
   font-size: 16px;
   padding: 10px 22px;
 }
@@ -1276,7 +1294,7 @@ p.mb-50 {
 .logo img {
   width: 160px;
 }
-.navbar-dark .navbar-toggler {
+.navbar-toggler {
   font-size: 15px;
   padding: 8px 20px;
 }
@@ -1384,12 +1402,20 @@ p.mb-50 {
   font-size: 26px;
   margin-bottom: 18px;
 }
+h2.extra-sec-head{
+  font-size: 35px;
+}
 .sec-section h4 {
   font-size: 16px;
 }
 .research h4 {
-  font-size: 18px !important;
+  font-size: 15px !important;
   margin-bottom: 6px !important;
+}
+.research p {
+  font-size: 14px !important;
+  margin-bottom: 0 !important;
+  font-weight: 300 !important;
 }
 .custom-arrow.next-arrow {
   bottom: -30px;
@@ -1407,21 +1433,16 @@ p.mb-50 {
 .img-name img {
   height: 65px;
   max-width: 65px;
-  margin-right: 0;
-  margin-bottom: 10px;
 }
 .img-name {
-  flex-direction: column;
   display: flex;
-  align-items: start;
-  margin-bottom: 20px;
-}
-.hw-img img {
-  height: 90px;
-  width: 130px;
 }
 .navbar-nav li a {
-  font-size: 28px;
+  font-size: 40px;
+  font-weight: 700;
+}
+ul.navbar-nav {
+  height: 90vh;
 }
 .sec-section h2 small {
   font-size: 18px;
@@ -1430,6 +1451,99 @@ p.mb-50 {
 .navbar-nav li {
   text-align: center;
   margin: 12px 5px;
+}
+.container,
+.container-fluid {
+  padding-right: 36px;
+  padding-left: 36px;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  padding-right: 36px;
+  padding-left: 36px;
+}
+h1.extra-size{
+  font-size: 45px;
+  font-weight: 600;
+}
+.sec-section h4 {
+  font-size: 16px;
+}
+.pro-max h4{
+  line-height: 22px;
+}
+.address p {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: 300;
+}
+.footer-link ul li a {
+  font-size: 13px;
+}
+h2.extra-size b{
+  font-size: 43px;
+}
+.main-head p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.sec-section a {
+  padding: 12px 24px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.hw-img img {
+  height: 90px;
+  width: 80px;
+}
+.mobile-people {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px 15px;
+}
+.people-card h6 {
+  font-size: 11px;
+}
+.people-card h5 {
+  font-size: 13px;
+}
+.name-post h6 {
+  font-size: 13px;
+}
+h2.take-the{
+  font-size: 28px;
+}
+.contact-lets h4 {
+  font-size: 27px;
+  font-family: 'Lexend Deca';
+}
+.mobile-re h4{
+  font-size: 28px !important;
+}
+.mobile-re h6 {
+  font-weight: 400;
+  font-size: 18px !important;
+}
+.mobile-small h2 small br{
+  display: none;
+}
+.mobile-small h2 small{
+  font-size: 26px;
+  font-weight: 700;
+}
+b.mobile-one {
+  font-size: 55px;
+  font-weight: 500;
+}
+.big-small p {
+  font-size: 16px !important;
+  font-weight: 500;
+}
+.education p{
+  font-weight: 700;
+}
+.education {
+  gap: 18px 10px;
 }
 }
 

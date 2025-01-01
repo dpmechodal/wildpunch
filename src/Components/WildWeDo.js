@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Header from './Header'
 import Footer from './Footer'
+import KEYSECTORS from '../img/KEYSECTORS.svg'
 
 const WildWeDo = () => {
   return (
@@ -12,17 +13,17 @@ const WildWeDo = () => {
       </Helmet>
         <Header/>
         <div className="sec-section bg-third bg-black first-section">
-          <div className="container py-200">
+          <div className="container py-200 pro-max">
             <p>WILD WE DO</p>
             <h4>Everyone has great Ideas, the world has always needed executioners. We are the right mix of</h4>
-            <h2 className='mb-0'><b>Ideas, strategy, tech & execution.</b></h2>
+            <h2 className='mb-0 extra-size'><b>Ideas, strategy, tech & execution.</b></h2>
           </div>
         </div>
         <div className="sec-section bg-third">
           <div className="container py-200">
             <div className="row g-xl-5 g-4">
               <div className="col-lg-4 col-sm-6 col-12">
-                <div className="research">
+                <div className="research mobile-re">
                   <h4>Research</h4>
                   <h6>Your brand's compass.</h6>
                   <h6>We find your north.</h6>
@@ -36,7 +37,7 @@ const WildWeDo = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 col-12">
-                <div className="research">
+                <div className="research mobile-re">
                   <h4>Branding</h4>
                   <h6>Your brand's soul.</h6>
                   <h6>We find your north.</h6>
@@ -50,7 +51,7 @@ const WildWeDo = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 col-12">
-                <div className="research">
+                <div className="research mobile-re">
                   <h4>Advertising</h4>
                   <h6>Your brand's compass.</h6>
                   <h6>We make it heard.</h6>
@@ -64,7 +65,7 @@ const WildWeDo = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 col-12">
-                <div className="research">
+                <div className="research mobile-re">
                   <h4>Design</h4>
                   <h6>Your brand's blueprint.</h6>
                   <h6>We find your north.</h6>
@@ -78,7 +79,7 @@ const WildWeDo = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 col-12">
-                <div className="research">
+                <div className="research mobile-re">
                   <h4>Marketing</h4>
                   <h6>Your brand's roadmap.</h6>
                   <h6>We chart the course.</h6>
@@ -92,7 +93,7 @@ const WildWeDo = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 col-12">
-                <div className="research">
+                <div className="research mobile-re">
                   <h4>Digital</h4>
                   <h6>Your brand's universe.</h6>
                   <h6>We create its galaxies.</h6>
@@ -106,7 +107,7 @@ const WildWeDo = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 col-12">
-                <div className="research">
+                <div className="research mobile-re">
                   <h4>Films & Production</h4>
                   <h6>Your brand's story.</h6>
                   <h6>We bring it to life.</h6>
@@ -120,7 +121,7 @@ const WildWeDo = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 col-12">
-                <div className="research">
+                <div className="research mobile-re">
                   <h4>Influencer Marketing</h4>
                   <h6>Your brand's compass.</h6>
                   <h6>We find your north.</h6>
@@ -148,12 +149,12 @@ const WildWeDo = () => {
           </div>
         </div>
         <div className="bg-four">
-            <div className="container py-200 sec-section">
+            <div className="container py-200 sec-section contact-lets">
                 <div className="row g-xl-5 g-4">
                     <div className="col-xl-3 col-lg-4 col-md-6 col-12">
                         <div className="sec-section">
-                            <div className="big-small">
-                                <h2><b>W</b><small>eave<br/>Insights</small></h2>
+                            <div className="big-small mobile-small">
+                                <h2><b className='mobile-one'>W</b><small>eave <br/>Insights</small></h2>
                                 <p>We don't just collect
                                 data. We unravel its
                                 secrets, discovering
@@ -166,8 +167,8 @@ const WildWeDo = () => {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-12">
                         <div className="sec-section">
-                            <div className="big-small">
-                                <h2><b>I</b><small>gnite<br/>Imagination</small></h2>
+                            <div className="big-small mobile-small">
+                                <h2><b className='mobile-one'>I</b><small>gnite <br/>Imagination</small></h2>
                                 <p>Ideas are the spark
                                 that ignites brands.
                                 Our team is a crucible
@@ -180,8 +181,8 @@ const WildWeDo = () => {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-12">
                         <div className="sec-section">
-                            <div className="big-small">
-                                <h2><b>L</b><small>imitless<br/>Innovation</small></h2>
+                            <div className="big-small mobile-small">
+                                <h2><b className='mobile-one'>L</b><small>imitless <br/>Innovation</small></h2>
                                 <p>We refuse to be
                                 confined by
                                 conventions. Our
@@ -196,8 +197,8 @@ const WildWeDo = () => {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-12">
                         <div className="sec-section">
-                            <div className="big-small">
-                                <h2><b>D</b><small>ynamite<br/>Delivery</small></h2>
+                            <div className="big-small mobile-small">
+                                <h2><b className='mobile-one'>D</b><small>ynamite <br/>Delivery</small></h2>
                                 <p>The final act is where
                                 we truly shine. Our
                                 campaigns are
@@ -217,30 +218,35 @@ const WildWeDo = () => {
         <div className="bg-dark">
           <div className="container py-200 main-head">
             <h6>KEY SECTORS</h6>
-            <div className="education mt-50">
-                <p>EDUCATION</p>
-                <p>GOVERNMENT</p>
-                <p>REAL ESTATE</p>
-                <p>FMCG</p>
-                <p>TECH</p>
-                <p>AGRO</p>
-                <p>FOOD & BEVERAGES</p>
-                <p>HEALTHCARE</p>
-                <p>RETAIL</p>
-                <p>JEWELLERY</p>
-                <p>FASHION</p>
-                <p>WELLNESS</p>
-                <p>SPORTS</p>
-                <p>INDUSTRIAL</p>
-                <p>AUTOMOBILE</p>
-                <p>NGO</p>
+            <div className="d-sm-block d-none">
+              <div className="education mt-50">
+                  <p>EDUCATION</p>
+                  <p>GOVERNMENT</p>
+                  <p>REAL ESTATE</p>
+                  <p>FMCG</p>
+                  <p>TECH</p>
+                  <p>AGRO</p>
+                  <p>RETAIL</p>
+                  <p>FOOD & BEVERAGES</p>
+                  <p>HEALTHCARE</p>
+                  <p>NGO</p>
+                  <p>JEWELLERY</p>
+                  <p>FASHION</p>
+                  <p>WELLNESS</p>
+                  <p>SPORTS</p>
+                  <p>INDUSTRIAL</p>
+                  <p>AUTOMOBILE</p>
+              </div>
+            </div>
+            <div className="d-sm-none d-block mt-50">
+                <img src={KEYSECTORS} alt="" className="img-fluid" />
             </div>
           </div>
         </div>
         <div className="bg-third">
           <div className="container py-200 main-head main-foot">
             <div className="wild-flex">
-                <h1 className='mb-0'><span>LET’S TALK.</span><br/>Got a project?</h1>
+                <h1 className='mb-0 extra-size'><span>LET’S TALK.</span><br/>Got a project?</h1>
                 <div className='sec-section d-flex'>
                     <a href="/Contact">Contact Us <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>

@@ -1,3 +1,54 @@
+// import React, { useState } from 'react';
+// import { NavLink, useLocation } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+// import logo from '../logo.svg';
+
+// const Header = () => {
+//     const location = useLocation();
+//     const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+
+//     const toggleNavbar = () => {
+//         setIsNavbarOpen(!isNavbarOpen);
+//     };
+
+//     return (
+//         <div>
+//             <nav className="navbar navbar-dark bg-dark">
+//                 <div className="container-fluid">
+//                     <Link to={"/"} className='logo'>
+//                         <img src={logo} className='img-fluid' alt="Logo" />
+//                     </Link>
+//                     <button 
+//                         className="navbar-toggler" 
+//                         type="button" 
+//                         data-bs-toggle="collapse" 
+//                         data-bs-target="#navbarSupportedContent" 
+//                         aria-controls="navbarSupportedContent" 
+//                         aria-expanded={isNavbarOpen} 
+//                         aria-label="Toggle navigation"
+//                         onClick={toggleNavbar}
+//                     >
+//                         {isNavbarOpen ? <i className="fa-solid fa-xmark"></i> : "MENU"}
+//                     </button>
+//                     <div className={`collapse navbar-collapse ${isNavbarOpen ? 'show' : ''}`} id="navbarSupportedContent">
+//                         <ul className="navbar-nav me-auto">
+//                             <li className={location.pathname === '/' ? 'active' : ''}><NavLink to={"/"}>HOME</NavLink></li>
+//                             <li className={location.pathname === '/WildWeAre' ? 'active' : ''}><NavLink to={"/WildWeAre"}>WILD WE ARE</NavLink></li>
+//                             <li className={location.pathname === '/WildWeDo' ? 'active' : ''}><NavLink to={"/WildWeDo"}>WILD WE DO</NavLink></li>
+//                             <li className={location.pathname === '/WildWildWork' ? 'active' : ''}><NavLink to={"/WildWildWork"}>WILD WILD WORK</NavLink></li>
+//                             <li className={location.pathname === '/BeWildWithUs' ? 'active' : ''}><NavLink to={"/BeWildWithUs"}>BE WILD WITH US</NavLink></li>
+//                             <li className={location.pathname === '/Contact' ? 'active' : ''}><NavLink to={"/Contact"}>CONTACT</NavLink></li>
+//                         </ul>
+//                     </div>
+//                 </div>
+//             </nav>
+//         </div>
+//     );
+// };
+
+// export default Header;
+
+
 import React, { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
@@ -13,10 +64,10 @@ const Header = () => {
 
     return (
         <div>
-            <nav className="navbar navbar-dark bg-dark">
+            <nav className={`navbar ${isNavbarOpen ? 'bg-nav' : 'bg-dark'}`}>
                 <div className="container-fluid">
-                    <Link to={"/"} className='logo'>
-                        <img src={logo} className='img-fluid' alt="Logo" />
+                    <Link to={"/"} className="logo">
+                        <img src={logo} className="img-fluid" alt="Logo" />
                     </Link>
                     <button 
                         className="navbar-toggler" 
@@ -47,3 +98,4 @@ const Header = () => {
 };
 
 export default Header;
+

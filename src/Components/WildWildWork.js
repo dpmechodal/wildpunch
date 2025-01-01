@@ -31,8 +31,8 @@ const workItems = [
   },
   {
     imgSrc: e,
-    title: 'PETALS FURNITURE',
-    description: 'Branding, Digital',
+    title: 'SIDDHARTH AGRO ORGANICA',
+    description: 'Branding, Packaging, Digital',
   },
   {
     imgSrc: a,
@@ -57,7 +57,7 @@ const workItems = [
   {
     imgSrc: e,
     title: 'PETALS FURNITURE',
-    description: 'Branding, Digital',
+    description: 'Branding, Packaging, Digital',
   },
 ];
 
@@ -71,7 +71,7 @@ const WildWildWork = () => {
       <div className="sec-section bg-third bg-black first-section">
         <div className="container py-200">
           <p>WILD WILD WORK</p>
-          <h2 className="mb-0">
+          <h2 className="mb-0 extra-size">
             <b>Brands and experiences built on bold ideas. Explore our work.</b>
           </h2>
         </div>
@@ -94,7 +94,7 @@ const WildWildWork = () => {
         <div className="bg-third">
           <div className="container py-200 main-head main-foot">
             <div className="wild-flex">
-                <h1 className='mb-0'><span>LET’S TALK.</span><br/>Got a project?</h1>
+                <h1 className='mb-0 extra-size'><span>LET’S TALK.</span><br/>Got a project?</h1>
                 <div className='sec-section d-flex'>
                     <a href="/Contact">Contact Us <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
