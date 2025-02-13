@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../logo-dark.svg";
+import logo from "../logo.svg";
 
 const Splash = () => {
   const [speed, setSpeed] = useState(1); // Start with 1s
