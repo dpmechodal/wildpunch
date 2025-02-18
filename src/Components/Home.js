@@ -64,14 +64,15 @@ const Home = () => {
         <div
           className="container py-300 main-head">
           <h1 className="extra-size" data-aos="fade-up" data-aos-duration="100">
-            Catalysts for change
+            Catalysts for Change
             <br />
             Agitators for Growth.
           </h1>
-          <p className="mb-0" data-aos="fade-up" data-aos-duration="200">
-            We're the spark that ignites brands.
-            <br /> As agents of change, we stir the pot,
-            <br /> challenge the norm, and disrupt industries.
+          <p className="mb-0 d-sm-block d-none" data-aos="fade-up" data-aos-duration="200">
+            We're the spark that ignites brands. As agents of change, <br />we stir the pot, challenge the norm <br />and disrupt industries.
+          </p>
+          <p className="mb-0 d-sm-none d-block" data-aos="fade-up" data-aos-duration="200">
+            We're the spark that ignites brands. <br />As agents of change, we stir the pot, <br />challenge the norm and disrupt industries.
           </p>
         </div>
       </div>
@@ -84,8 +85,8 @@ const Home = () => {
             we <b>add</b> more to your brand.
           </h2>
           <div className="d-flex" data-aos="fade-up" data-aos-duration="300">
-            <Link to={"#"}>
-              READ MORE <i class="fa-solid fa-arrow-right ms-2"></i>
+            <Link to={"/WildWeAre"}>
+              READ MORE <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
             </Link>
           </div>
         </div>
@@ -136,8 +137,8 @@ const Home = () => {
             </div>
           </div>
           <div className="mt-50" data-aos="fade-up" data-aos-duration="200">
-            <Link to={"#"}>
-              ALL PROJECTS <i class="fa-solid fa-arrow-right ms-2"></i>
+            <Link to={"/WildWildWork"}>
+              ALL PROJECTS <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
             </Link>
           </div>
         </div>
@@ -147,7 +148,7 @@ const Home = () => {
           className="container py-200">
           <p data-aos="fade-up" data-aos-duration="100">WHAT WE DO</p>
           <h4 data-aos="fade-up" data-aos-duration="200">
-            Everyone has great Ideas, the world has always needed executioners.
+            Everyone has great Ideas but the world<br/> has always needed executioners.<br/>
             We are the right mix of
           </h4>
           <h2 data-aos="fade-up" data-aos-duration="300">
@@ -212,8 +213,8 @@ const Home = () => {
             </div>
           </div>
           <div className="mt-50" data-aos="fade-up" data-aos-duration="400">
-            <Link to={"#"}>
-              READ MORE <i class="fa-solid fa-arrow-right ms-2"></i>
+            <Link to={"/WildWeDo"}>
+              READ MORE <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
             </Link>
           </div>
         </div>
@@ -318,7 +319,7 @@ const Home = () => {
           </h4>
           <div className="mt-50" data-aos="fade-up" data-aos-duration="400">
             <Link to={"#"}>
-              KNOW MORE <i class="fa-solid fa-arrow-right ms-2"></i>
+              KNOW MORE <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
             </Link>
           </div>
         </div>
@@ -348,7 +349,10 @@ const Home = () => {
               <h2 data-aos="fade-up" data-aos-duration="100">
                 <b>Hello there,</b>
               </h2>
-              <h4 className="text-black mb-md-4 mb-3" data-aos="fade-up" data-aos-duration="200">
+              <h4 className="text-black mb-md-4 mb-3 d-md-block d-none" data-aos="fade-up" data-aos-duration="200">
+                What makes us different?<br/> We will be there, <b>Always!</b>
+              </h4>
+              <h4 className="text-black mb-md-4 mb-3 d-md-none d-block" data-aos="fade-up" data-aos-duration="200">
                 What makes us different? We will be there, <b>Always!</b>
               </h4>
               <h4 className="text-black" data-aos="fade-up" data-aos-duration="300">
@@ -383,7 +387,7 @@ const Home = () => {
                 </div>
                 <div className="mt-md-5 mt-4 ">
                   <Link to={"#"}>
-                    GET STARTED <i class="fa-solid fa-arrow-right ms-2"></i>
+                    GET STARTED <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
                   </Link>
                 </div>
               </form>

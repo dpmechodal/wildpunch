@@ -123,7 +123,7 @@ const WildWildWork = () => {
             </h1>
             <div className="sec-section d-flex" data-aos="fade-up" data-aos-duration="200">
               <a href="/Contact">
-                Contact Us <i class="fa-solid fa-arrow-right ms-2"></i>
+                Contact Us <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
               </a>
             </div>
           </div>

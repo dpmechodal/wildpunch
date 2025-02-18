@@ -257,7 +257,7 @@ const WildWeDo = () => {
             </div>
           </div>
           <h4 className="text-black mt-50 mb-0" data-aos="fade-up" data-aos-duration="300">
-            The WILD approach is more than just a process, itʼs our DNA. It's
+            The WILD approach is more than just a process, itʼs our DNA. <br/>It's
             about pushing boundaries, challenging the status quo, and creating
             campaigns that leave a WILD impression.
           </h4>
@@ -301,15 +301,15 @@ const WildWeDo = () => {
             </h1>
             <div className="sec-section d-flex" data-aos="fade-up" data-aos-duration="200">
               <a href="/Contact">
-                Contact Us <i class="fa-solid fa-arrow-right ms-2"></i>
+                Contact Us <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
               </a>
             </div>
           </div>
           <p className="mt-4 pt-4 mb-0 border-top border-bottom-0" data-aos="fade-up" data-aos-duration="100">
             Discover boundless opportunities for collaboration with us. We
-            welcome brands from every sector to join us in crafting compelling
-            stories and strategies. Let's transcend boundaries together and
-            create impactful experiences that resonate with audiences worldwide.
+            welcome brands from <br/>every sector to join us in crafting compelling
+            stories and strategies. Let's transcend boundaries <br/>together and
+            create impactful experiences that resonate with audiences worldwide.<br/>
             Your brand's journey begins here.
           </p>
         </div>

@@ -340,7 +340,7 @@ p.mb-50 {
   border-bottom: 1px solid #ffc700;
 }
 .work-with-us p {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 .social-link {
   display: flex;
@@ -423,7 +423,7 @@ select.form-select option {
 .custom-arrow {
   background-color: #fff;
   color: #000;
-  padding: 0px 15px;
+  padding: 0px 20px 0 0;
   border-radius: 15px;
   width: fit-content;
   cursor: pointer;
@@ -446,7 +446,7 @@ select.form-select option {
 .testi {
   color: #fff;
   background-color: #000;
-  padding: 0px 15px;
+  padding: 2px 20px 2px 0;
   border-radius: 15px;
   width: fit-content;
   cursor: pointer;
@@ -676,6 +676,21 @@ select.form-select option:hover {
 .splash-screen.hidden {
   opacity: 0;
   pointer-events: none;
+}
+.arrow1 {
+  animation: slide1 1s ease-in-out infinite;
+  margin-left: 9px;
+}
+
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
 }
 
 
@@ -1100,9 +1115,6 @@ select.form-select option:hover {
   .footer-link ul li {
     margin-bottom: 16px;
   }
-  .work-with-us p {
-    margin-bottom: 25px;
-  }
   .find-us h6 {
     margin-bottom: 14px;
     font-size: 18px;
@@ -1165,7 +1177,9 @@ select.form-select option:hover {
     height: 80px;
     width: 90px;
   }
-
+  .work-with-us p {
+    margin-bottom: 70px;
+  }
   .cursor {
     display: none;
   }
@@ -1510,7 +1524,7 @@ select.form-select option:hover {
   }
   .custom-arrow,
   .testi {
-    padding: 0px 12px;
+    padding: 0px 16px 0 0px;
     border-radius: 12px;
     font-size: 13px;
   }

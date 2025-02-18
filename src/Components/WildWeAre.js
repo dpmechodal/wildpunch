@@ -142,7 +142,7 @@ const WildWeAre = () => {
             </h1>
             <div className="sec-section d-flex">
               <a href="/Contact" data-aos="fade-up" data-aos-duration="200">
-                Contact Us <i class="fa-solid fa-arrow-right ms-2"></i>
+                Contact Us <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
               </a>
             </div>
           </div>

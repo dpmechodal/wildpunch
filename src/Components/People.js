@@ -13,7 +13,7 @@ function NextArrow(props) {
   const { onClick } = props;
   return (
     <div className="custom-arrow next-arrow" onClick={onClick}>
-      <i class="fa-solid fa-arrow-right-long"></i>
+      <i class="fa-solid fa-arrow-right-long arrow1"></i>
     </div>
   );
 }
@@ -22,7 +22,7 @@ function PrevArrow(props) {
   const { onClick } = props;
   return (
     <div className="custom-arrow prev-arrow" onClick={onClick}>
-      <i class="fa-solid fa-arrow-left-long"></i>
+      <i class="fa-solid fa-arrow-left-long arrow1"></i>
     </div>
   );
 }
