@@ -28,17 +28,17 @@ const Contact = () => {
       <Helmet>
         <title>Contact Us - Wildpunch Design & Digital</title>
       </Helmet>
-      <Splash />
+      {/* <Splash /> */}
       <Header />
       <div className="first-section bg-dark">
         <div className="container py-200 main-head">
-          <h6 data-aos="fade-up" data-aos-duration="100">CONTACT US</h6>
-          <h1 className="extra-size" data-aos="fade-up" data-aos-duration="200">
+          <h6 data-aos="fade-up" data-aos-duration="200">CONTACT US</h6>
+          <h1 className="extra-size" data-aos="fade-up" data-aos-duration="400">
             <span>LET’S TALK.</span>
             <br />
             Got a project?
           </h1>
-          <p className="mb-0" data-aos="fade-up" data-aos-duration="300">
+          <p className="mb-0" data-aos="fade-up" data-aos-duration="600">
             Discover boundless opportunities for collaboration with us. We
             welcome brands from every sector to join us in crafting compelling
             stories and strategies.{" "}
@@ -49,14 +49,14 @@ const Contact = () => {
         <div className="container py-200">
           <div className="row g-lg-4 g-3 align-items-center">
             <div className="col-12 contact-lets">
-              <h4 className="text-black mb-0" data-aos="fade-up" data-aos-duration="100">
+              <h4 className="text-black mb-0" data-aos="fade-up" data-aos-duration="200">
                 Let's transcend boundaries together and create impactful
                 experiences that resonate with audiences worldwide. Your brand's
                 journey begins here.
               </h4>
             </div>
             <div className="col-12">
-              <form className="hello-form row g-md-3 g-0" data-aos="fade-up" data-aos-duration="200">
+              <form className="hello-form row g-md-3 g-0" data-aos="fade-up" data-aos-duration="400">
                 <div class="mb-md-4 mb-3 pe-md-4 col-md-6">
                   <input
                     type="text"
@@ -106,7 +106,7 @@ const Contact = () => {
                     placeholder="How can we help?"
                   />
                 </div>
-                <div className="mt-lg-5 mt-4" data-aos="fade-up" data-aos-duration="300">
+                <div className="mt-lg-5 mt-4" data-aos="fade-up" data-aos-duration="400">
                   <Link to={"#"}>SUBMIT</Link>
                 </div>
               </form>

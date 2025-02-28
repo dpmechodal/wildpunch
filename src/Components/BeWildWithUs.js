@@ -31,15 +31,15 @@ const BeWildWithUs = () => {
       <Helmet>
         <title>Be Wild With Us - Wildpunch Design & Digital</title>
       </Helmet>
-      <Splash />
+      {/* <Splash /> */}
       <Header />
       <div className="sec-section bg-third bg-black first-section">
         <div className="container py-200">
-          <p data-aos="fade-up" data-aos-duration="100">BE WILD WITH US</p>
-          <h2 className="mb-0 extra-size d-sm-block d-none" data-aos="fade-up" data-aos-duration="200">
+          <p data-aos="fade-up" data-aos-duration="200">BE WILD WITH US</p>
+          <h2 className="mb-0 extra-size d-sm-block d-none" data-aos="fade-up" data-aos-duration="400">
             <b>Turn your wild ideas into game-changing realities.</b>
           </h2>
-          <h2 className="mb-0 extra-size d-sm-none b-block" data-aos="fade-up" data-aos-duration="200">
+          <h2 className="mb-0 extra-size d-sm-none b-block" data-aos="fade-up" data-aos-duration="400">
             <b>
               Turn your <br />
               wild ideas into <br />
@@ -51,7 +51,7 @@ const BeWildWithUs = () => {
       </div>
       <div className="sec-section bg-second">
         <div className="container py-200">
-          <h4 class="text-black mb-0" data-aos="fade-up" data-aos-duration="100">
+          <h4 class="text-black mb-0" data-aos="fade-up" data-aos-duration="200">
             We get it, <br />
             finding a career that clicks can feel like a treasure hunt. Thatʼs
             why weʼre here to make the ride smoother, with opportunities as wild
@@ -64,7 +64,7 @@ const BeWildWithUs = () => {
         <div className="container py-200">
           <div className="row g-lg-4 g-3 align-items-center">
             <div className="col-12">
-              <h2 className="mb-0 take-the" data-aos="fade-up" data-aos-duration="100">
+              <h2 className="mb-0 take-the" data-aos="fade-up" data-aos-duration="200">
                 Take the first step towards a rewarding future, start your
                 journey with us today.
               </h2>
@@ -72,7 +72,7 @@ const BeWildWithUs = () => {
           </div>
         </div>
       </div>
-      <div className="sec-section" data-aos="fade-up" data-aos-duration="100">
+      <div className="sec-section" data-aos="fade-up" data-aos-duration="200">
         <div className="container py-200">
           <div className="row g-lg-4 g-3 align-items-center">
             <div className="col-12">

@@ -21,7 +21,7 @@ const Footer = () => {
         <div
           className="container-fluid">
           <div className="row p-20 g-lg-4 g-3">
-            <div className="col-lg-3 col-12 col-12 footer-logo" data-aos="fade-up" data-aos-duration="100">
+            <div className="col-lg-3 col-12 col-12 footer-logo" data-aos="fade-up" data-aos-duration="200">
               <Link to={"/"}>
                 <img src={logo} alt="" className="img-fluid" />
               </Link>

@@ -31,18 +31,18 @@ const WildWeAre = () => {
       <Helmet>
         <title>Wild We Are - Wildpunch Design & Digital</title>
       </Helmet>
-      <Splash />
+      {/* <Splash /> */}
       <Header />
       <div className="sec-section bg-third bg-black first-section">
         <div className="container py-200">
-          <p  data-aos="fade-up" data-aos-duration="1000">WILD WE ARE</p>
-          <h2 className="mb-0 extra-size d-sm-block d-none"  data-aos="fade-up" data-aos-duration="1100">
+          <p  data-aos="fade-up" data-aos-duration="200">WILD WE ARE</p>
+          <h2 className="mb-0 extra-size d-sm-block d-none"  data-aos="fade-up" data-aos-duration="400">
             <b>
               Not just an ad agency, <br />
               we add more to your brand.
             </b>
           </h2>
-          <h2 className="mb-0 extra-size d-sm-none d-block" data-aos="fade-up" data-aos-duration="1200">
+          <h2 className="mb-0 extra-size d-sm-none d-block" data-aos="fade-up" data-aos-duration="400">
             <b>
               Not just an <br />
               ad agency, <br />
@@ -56,7 +56,7 @@ const WildWeAre = () => {
         <div className="container py-200">
           <div className="row g-lg-4 g-3 align-items-center">
             <div className="col-12">
-              <h4 className="text-black mb-md-4 mb-3" data-aos="fade-up" data-aos-duration="100">
+              <h4 className="text-black mb-md-4 mb-3" data-aos="fade-up" data-aos-duration="200">
                 While everyone is all rage about Tech, AI, GPTs etc.
               </h4>
               <h2 data-aos="fade-up" data-aos-duration="200">
@@ -89,8 +89,8 @@ const WildWeAre = () => {
       </div>
       <div className="sec-section bg-second" id="OurTeam">
         <div className="container py-200">
-          <p className="mb-4" data-aos="fade-up" data-aos-duration="100">OUR PEOPLE</p>
-          <h4 class="text-black mb-md-4 mb-3" data-aos="fade-up" data-aos-duration="100">
+          <p className="mb-4" data-aos="fade-up" data-aos-duration="200">OUR PEOPLE</p>
+          <h4 class="text-black mb-md-4 mb-3" data-aos="fade-up" data-aos-duration="200">
             We are D2C Founders, Fashion designers, Real estate agents, Chefs,
             Vegetable sellers, Lawyers, Engineers, Event managers and everything
             in between...
@@ -111,7 +111,7 @@ const WildWeAre = () => {
       </div>
       <div className="sec-section bg-third">
         <div className="container py-200 pb-0">
-          <p className="mb-50" data-aos="fade-up" data-aos-duration="100">WILDPUNCH AT WORK</p>
+          <p className="mb-50" data-aos="fade-up" data-aos-duration="200">WILDPUNCH AT WORK</p>
         </div>
         <div className="container-fluid py-200 pt-0 px-0" data-aos="fade-up" data-aos-duration="200">
           <Work />
@@ -119,7 +119,7 @@ const WildWeAre = () => {
       </div>
       <div className="sec-section bg-secound">
         <div className="container py-200">
-          <p data-aos="fade-up" data-aos-duration="100">Our clients are as Wild as us,</p>
+          <p data-aos="fade-up" data-aos-duration="200">Our clients are as Wild as us,</p>
           <h2 className="mb-0 extra-sec-head" data-aos="fade-up" data-aos-duration="200">
             <b>
               They can’t say <br />
@@ -135,7 +135,7 @@ const WildWeAre = () => {
       <div className="bg-third">
         <div className="container py-200 main-head main-foot">
           <div className="wild-flex">
-            <h1 className="mb-0 extra-size" data-aos="fade-up" data-aos-duration="100">
+            <h1 className="mb-0 extra-size" data-aos="fade-up" data-aos-duration="200">
               <span>LET’S TALK.</span>
               <br />
               Got a project?

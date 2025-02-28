@@ -8,6 +8,7 @@ import Contact from "./Components/Contact";
 import WildWeAre from "./Components/WildWeAre";
 import WildWildWork from "./Components/WildWildWork";
 import BeWildWithUs from "./Components/BeWildWithUs";
+import Microlit from "./Components/Microlit";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/WildWeAre" element={<WildWeAre />} />
             <Route path="/WildWildWork" element={<WildWildWork />} />
             <Route path="/BeWildWithUs" element={<BeWildWithUs />} />
+            <Route path="/Microlit" element={<Microlit />} />
           </Routes>
         </Router>
       </div>
