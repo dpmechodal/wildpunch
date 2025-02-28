@@ -3,11 +3,6 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Header from "./Header";
 import Footer from "./Footer";
-import a from "../img/work1.png";
-import b from "../img/work2.png";
-import c from "../img/work3.png";
-import d from "../img/work4.png";
-import e from "../img/work5.png";
 import gif1 from "../img/Product/dhartico.gif";
 import gif2 from "../img/Product/loom-and-needles.gif";
 import gif3 from "../img/Product/microlit.gif";
@@ -50,7 +45,7 @@ const WildWildWork = () => {
         <div className="container py-200">
           <div className="row g-lg-4 g-3">
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              <Link to={"/Microlit"}>
+              <Link to={"/DhartiCo"}>
                 <div className="work-one">
                   <img src={gif1} className="img-fluid" />
                   <h5>DHARTI CO.</h5>
@@ -59,10 +54,10 @@ const WildWildWork = () => {
               </Link>
             </div>
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="400">
-              <Link to={"/Microlit"}>
+              <Link to={"/LoomNeedles"}>
                 <div className="work-one">
                   <img src={gif2} className="img-fluid" />
-                  <h5>LOOM & NEEDLES</h5>
+                  <h5>LOOMS & NEEDLES</h5>
                   <h6>Branding, Digital</h6>
                 </div>
               </Link>
@@ -77,12 +72,56 @@ const WildWildWork = () => {
               </Link>
             </div>
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="800">
-              <Link to={"/Microlit"}>
+              <Link to={"/PetalsFurniture"}>
                 <div className="work-one">                  
                   <video autoPlay muted loop className="img-fluid">
                       <source src={gif4} type="video/mp4" />
                   </video>
                   <h5>PETALS FURNITURE</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+              <Link to={"/ModernSchool"}>
+                <div className="work-one">                  
+                  <video autoPlay muted loop className="img-fluid">
+                      <source src={gif4} type="video/mp4" />
+                  </video>
+                  <h5>MODERN SCHOOL</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1200">
+              <Link to={"/Springtek"}>
+                <div className="work-one">                  
+                  <video autoPlay muted loop className="img-fluid">
+                      <source src={gif4} type="video/mp4" />
+                  </video>
+                  <h5>SPRINGTEK</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1400">
+              <Link to={"/RDUCJewels"}>
+                <div className="work-one">                  
+                  <video autoPlay muted loop className="img-fluid">
+                      <source src={gif4} type="video/mp4" />
+                  </video>
+                  <h5>RDUC JEWELS</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1600">
+              <Link to={"/TridentHills"}>
+                <div className="work-one">                  
+                  <video autoPlay muted loop className="img-fluid">
+                      <source src={gif4} type="video/mp4" />
+                  </video>
+                  <h5>TRIDENT HILLS</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
               </Link>

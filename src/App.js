@@ -9,6 +9,9 @@ import WildWeAre from "./Components/WildWeAre";
 import WildWildWork from "./Components/WildWildWork";
 import BeWildWithUs from "./Components/BeWildWithUs";
 import Microlit from "./Components/Microlit";
+import DhartiCo from "./Components/DhartiCo";
+import LoomNeedles from "./Components/LoomNeedles";
+import PetalsFurniture from "./Components/PetalsFurniture";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
             <Route path="/WildWildWork" element={<WildWildWork />} />
             <Route path="/BeWildWithUs" element={<BeWildWithUs />} />
             <Route path="/Microlit" element={<Microlit />} />
+            <Route path="/DhartiCo" element={<DhartiCo />} />
+            <Route path="/LoomNeedles" element={<LoomNeedles />} />
+            <Route path="/PetalsFurniture" element={<PetalsFurniture />} />
           </Routes>
         </Router>
       </div>

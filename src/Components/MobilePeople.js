@@ -21,11 +21,11 @@ const MobilePeople = () => {
           <h5>Sakar Mishra</h5>
           <h6>Creative Director</h6>
         </div>
-        <div className="people-card">
+        {/* <div className="people-card">
           <img src={people3} className="img-fluid" alt={"..."} />
           <h5>Ayushi Verma</h5>
           <h6>Team Lead - Content</h6>
-        </div>
+        </div> */}
         <div className="people-card">
           <img src={people4} className="img-fluid" alt={"..."} />
           <h5>Abhijeet Sinha</h5>
@@ -46,11 +46,11 @@ const MobilePeople = () => {
           <h5>Sakar Mishra</h5>
           <h6>Creative Director</h6>
         </div>
-        <div className="people-card">
+        {/* <div className="people-card">
           <img src={people3} className="img-fluid" alt={"..."} />
           <h5>Ayushi Verma</h5>
           <h6>Team Lead - Content</h6>
-        </div>
+        </div> */}
         <div className="people-card">
           <img src={people4} className="img-fluid" alt={"..."} />
           <h5>Abhijeet Sinha</h5>
@@ -71,11 +71,11 @@ const MobilePeople = () => {
           <h5>Sakar Mishra</h5>
           <h6>Creative Director</h6>
         </div>
-        <div className="people-card">
+        {/* <div className="people-card">
           <img src={people3} className="img-fluid" alt={"..."} />
           <h5>Ayushi Verma</h5>
           <h6>Team Lead - Content</h6>
-        </div>
+        </div> */}
         <div className="people-card">
           <img src={people4} className="img-fluid" alt={"..."} />
           <h5>Abhijeet Sinha</h5>
@@ -96,11 +96,11 @@ const MobilePeople = () => {
           <h5>Sakar Mishra</h5>
           <h6>Creative Director</h6>
         </div>
-        <div className="people-card">
+        {/* <div className="people-card">
           <img src={people3} className="img-fluid" alt={"..."} />
           <h5>Ayushi Verma</h5>
           <h6>Team Lead - Content</h6>
-        </div>
+        </div> */}
         <div className="people-card">
           <img src={people4} className="img-fluid" alt={"..."} />
           <h5>Abhijeet Sinha</h5>
@@ -121,11 +121,11 @@ const MobilePeople = () => {
           <h5>Sakar Mishra</h5>
           <h6>Creative Director</h6>
         </div>
-        <div className="people-card">
+        {/* <div className="people-card">
           <img src={people3} className="img-fluid" alt={"..."} />
           <h5>Ayushi Verma</h5>
           <h6>Team Lead - Content</h6>
-        </div>
+        </div> */}
         <div className="people-card">
           <img src={people4} className="img-fluid" alt={"..."} />
           <h5>Abhijeet Sinha</h5>
