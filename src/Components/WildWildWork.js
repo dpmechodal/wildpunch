@@ -6,7 +6,10 @@ import Footer from "./Footer";
 import gif1 from "../img/Product/dhartico.gif";
 import gif2 from "../img/Product/loom-and-needles.gif";
 import gif3 from "../img/Product/microlit.gif";
-import gif4 from "../img/Product/petals-furniture.mp4";
+import gif4 from "../img/Product/petals-furniture.gif";
+import gif5 from "../img/Product/modern-school.gif";
+import gif6 from "../img/Product/gate-way.gif";
+import gif7 from "../img/Product/jabra.gif";
 import CursorErrow from "./CursorErrow";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -44,24 +47,6 @@ const WildWildWork = () => {
       <div className="">
         <div className="container py-200">
           <div className="row g-lg-4 g-3">
-            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              <Link to={"/DhartiCo"}>
-                <div className="work-one">
-                  <img src={gif1} className="img-fluid" />
-                  <h5>DHARTI CO.</h5>
-                  <h6>Branding, Packaging, Digital</h6>
-                </div>
-              </Link>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="400">
-              <Link to={"/LoomNeedles"}>
-                <div className="work-one">
-                  <img src={gif2} className="img-fluid" />
-                  <h5>LOOMS & NEEDLES</h5>
-                  <h6>Branding, Digital</h6>
-                </div>
-              </Link>
-            </div>
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="600">
               <Link to={"/Microlit"}>
                 <div className="work-one">
@@ -71,61 +56,72 @@ const WildWildWork = () => {
                 </div>
               </Link>
             </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
+              {/* <Link to={"/DhartiCo"}> */}
+                <div className="work-one">
+                  <img src={gif1} className="img-fluid" />
+                  <h5>DHARTI CO.</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              {/* </Link> */}
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="400">
+              {/* <Link to={"/LoomNeedles"}> */}
+                <div className="work-one">
+                  <img src={gif2} className="img-fluid" />
+                  <h5>LOOMS & NEEDLES</h5>
+                  <h6>Branding, Digital</h6>
+                </div>
+              {/* </Link> */}
+            </div>
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="800">
-              <Link to={"/PetalsFurniture"}>
+              {/* <Link to={"/PetalsFurniture"}> */}
                 <div className="work-one">                  
-                  <video autoPlay muted loop className="img-fluid">
+                  {/* <video autoPlay muted loop className="img-fluid">
                       <source src={gif4} type="video/mp4" />
-                  </video>
+                  </video> */}
+                  <img src={gif4} className="img-fluid" />
                   <h5>PETALS FURNITURE</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
-              </Link>
+              {/* </Link> */}
             </div>
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
-              <Link to={"/ModernSchool"}>
-                <div className="work-one">                  
-                  <video autoPlay muted loop className="img-fluid">
-                      <source src={gif4} type="video/mp4" />
-                  </video>
+              {/* <Link to={"/ModernSchool"}> */}
+                <div className="work-one">    
+                  <img src={gif5} className="img-fluid" />
                   <h5>MODERN SCHOOL</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
-              </Link>
+              {/* </Link> */}
             </div>
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1200">
-              <Link to={"/Springtek"}>
-                <div className="work-one">                  
-                  <video autoPlay muted loop className="img-fluid">
-                      <source src={gif4} type="video/mp4" />
-                  </video>
+              {/* <Link to={"/Springtek"}> */}
+                <div className="work-one">   
+                  <img src={gif6} className="img-fluid" />
                   <h5>SPRINGTEK</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
-              </Link>
+              {/* </Link> */}
             </div>
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1400">
-              <Link to={"/RDUCJewels"}>
-                <div className="work-one">                  
-                  <video autoPlay muted loop className="img-fluid">
-                      <source src={gif4} type="video/mp4" />
-                  </video>
+              {/* <Link to={"/RDUCJewels"}> */}
+                <div className="work-one">     
+                  <img src={gif7} className="img-fluid" />
                   <h5>RDUC JEWELS</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
-              </Link>
+              {/* </Link> */}
             </div>
-            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1600">
+            {/* <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1600">
               <Link to={"/TridentHills"}>
-                <div className="work-one">                  
-                  <video autoPlay muted loop className="img-fluid">
-                      <source src={gif4} type="video/mp4" />
-                  </video>
+                <div className="work-one">    
+                  <img src={gif7} className="img-fluid" />
                   <h5>TRIDENT HILLS</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

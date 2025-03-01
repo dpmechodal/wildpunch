@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import Splash from "./Splash";
 import Header from "./Header";
 import Footer from "./Footer";
+import microlitlogo from "../img/Product/Logo.mp4";
 import microlit1 from "../img/Product/Microlit_FINAL_Artboard.jpg";
 import microlit2 from "../img/Product/Microlit_FINAL-02.jpg";
 import microlit3 from "../img/Product/Microlit_FINAL-03.jpg";
@@ -58,8 +59,10 @@ const Home = () => {
       <Header />
       <div className="container-fluid first-section pl-pr-5">   
         <div className="row">
-            <div className="col-12 mb-3 p-0">
-                <img src={microlit1} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+            <div className="col-12 mb-3 p-0" data-aos="fade-up" data-aos-duration="200">         
+                <video autoPlay muted loop className="img-fluid">
+                    <source src={microlitlogo} type="video/mp4" />
+                </video>
             </div>    
         </div>     
       </div>
