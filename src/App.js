@@ -12,6 +12,7 @@ import Microlit from "./Components/Microlit";
 import DhartiCo from "./Components/DhartiCo";
 import LoomNeedles from "./Components/LoomNeedles";
 import PetalsFurniture from "./Components/PetalsFurniture";
+import ModernSchool from "./Components/ModernSchool";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/DhartiCo" element={<DhartiCo />} />
             <Route path="/LoomNeedles" element={<LoomNeedles />} />
             <Route path="/PetalsFurniture" element={<PetalsFurniture />} />
+            <Route path="/ModernSchool" element={<ModernSchool />} />
           </Routes>
         </Router>
       </div>

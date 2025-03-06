@@ -56,44 +56,44 @@ const WildWildWork = () => {
                 </div>
               </Link>
             </div>
-            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              {/* <Link to={"/DhartiCo"}> */}
-                <div className="work-one">
-                  <img src={gif1} className="img-fluid" />
-                  <h5>DHARTI CO.</h5>
-                  <h6>Branding, Packaging, Digital</h6>
-                </div>
-              {/* </Link> */}
-            </div>
-            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="400">
-              {/* <Link to={"/LoomNeedles"}> */}
-                <div className="work-one">
-                  <img src={gif2} className="img-fluid" />
-                  <h5>LOOMS & NEEDLES</h5>
-                  <h6>Branding, Digital</h6>
-                </div>
-              {/* </Link> */}
-            </div>
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="800">
-              {/* <Link to={"/PetalsFurniture"}> */}
+              <Link to={"/PetalsFurniture"}>
                 <div className="work-one">                  
-                  {/* <video autoPlay muted loop className="img-fluid">
+                  {/* <video autoPlay muted loop className="img-fluid w-100">
                       <source src={gif4} type="video/mp4" />
                   </video> */}
                   <img src={gif4} className="img-fluid" />
                   <h5>PETALS FURNITURE</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
-              {/* </Link> */}
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
+              <Link to={"/DhartiCo"}>
+                <div className="work-one">
+                  <img src={gif1} className="img-fluid" />
+                  <h5>DHARTI CO.</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="400">
+              <Link to={"/LoomNeedles"}>
+                <div className="work-one">
+                  <img src={gif2} className="img-fluid" />
+                  <h5>LOOMS & NEEDLES</h5>
+                  <h6>Branding, Digital</h6>
+                </div>
+              </Link>
             </div>
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
-              {/* <Link to={"/ModernSchool"}> */}
+              <Link to={"/ModernSchool"}>
                 <div className="work-one">    
                   <img src={gif5} className="img-fluid" />
                   <h5>MODERN SCHOOL</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
-              {/* </Link> */}
+              </Link>
             </div>
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1200">
               {/* <Link to={"/Springtek"}> */}

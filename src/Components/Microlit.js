@@ -59,8 +59,8 @@ const Home = () => {
       <Header />
       <div className="container-fluid first-section pl-pr-5">   
         <div className="row">
-            <div className="col-12 mb-3 p-0" data-aos="fade-up" data-aos-duration="200">         
-                <video autoPlay muted loop className="img-fluid">
+            <div className="col-12 mb-3 p-0">         
+                <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
                     <source src={microlitlogo} type="video/mp4" />
                 </video>
             </div>    
@@ -98,15 +98,22 @@ const Home = () => {
             <h1 className="extra-size d-md-none d-block" data-aos="fade-up" data-aos-duration="200">
                 The perfect blend of precision and personality: <br />Art of engaging Science
             </h1>
-            <p className="mb-0 sec-section-white" data-aos="fade-up" data-aos-duration="200">
+            <p className="sec-section-white mb-md-4 mb-3" data-aos="fade-up" data-aos-duration="200">
                 Microlit, liquid handling pioneers possessed cutting-edge technology but lacked a vibrant brand presence. They partnered with us to bridge this gap, transforming complex scientific language into engaging content. From eye-catching visuals to a dynamic LinkedIn presence and targeted digital ads, overall we crafted an interactive brand story. This fresh approach not only preserved Microlit's scientific excellence but also boosted engagement and conversions.<br/>
                 Uncover how WildPunch helped Microlit connect with their audience on a deeper level, turning scientific excellence into compelling conversations. 
             </p>
-            <div className="mt-50 sec-section-white" data-aos="fade-up" data-aos-duration="400">
-                <button className="btn" type="button">
-                KNOW MORE <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
-                </button>
-            </div>
+            {showMore && (
+                <p className="sec-section-white" data-aos="fade-up" data-aos-duration="300">
+                    Microlit approached us to make a way to connect with their audience on a deeper level, crafting their brand more interactive and driving conversions, all while preserving their scientific integrity. At WildPunch, an inclusive brand refresh was undertaken, covering everything from visually appealing marketing materials to a dynamic linkedin presence that balanced storytelling and eye-catching visuals. Digital advertising campaigns were implemented to maximize conversions, and SEO strategies that improved search visibility. Crucially, the complex scientific language surrounding Microlit's products was transformed into accessible, engaging content that resonated with researchers and industry professionals. Through all this, we revitalized a brand that not only maintains its scientific credibility but also enjoys a strong digital footprint, increased engagement, and higher conversion rates. Microlit's success demonstrates the power of combining innovation with effective storytelling, turning even complex scientific concepts into engaging conversations.
+                </p>
+            )}
+
+      <div className="mt-50 sec-section-white">
+        <button className="btn" onClick={() => setShowMore(!showMore)}>
+          {showMore ? "SHOW LESS" : "KNOW MORE"} 
+          <i className="fa-solid fa-arrow-right ms-2 arrow1"></i>
+        </button>
+      </div>
         </div>
       </div>
       <div className="container-fluid pl-pr-5 my-3">   
@@ -231,7 +238,7 @@ const Home = () => {
       <div className="container-fluid pl-pr-5">   
         <div className="row">
             <div className="col-12 mb-3 p-0">
-                <video autoPlay muted loop className="img-fluid">
+                <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
                     <source src={microlit27} type="video/mp4" />
                 </video>
             </div>    
@@ -274,7 +281,7 @@ const Home = () => {
       <div className="container-fluid pl-pr-5">   
         <div className="row">
             <div className="col-12 mb-3 p-0">
-                <video autoPlay muted loop className="img-fluid">
+                <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
                     <source src={microlit26} type="video/mp4" />
                 </video>
             </div>    
@@ -319,56 +326,6 @@ const Home = () => {
             </div>
         </div>
       </section> */}
-      <div className="first-section bg-dark pt-0">
-        <div className="container py-200 main-head pb-0">
-            <div className="row g-4 micro-bottom">
-                <div className="col-lg-4 col-sm-6 col-6">
-                    <div className="research microlit">
-                        <p data-aos="fade-up" data-aos-duration="200">Client</p>
-                        <h4 data-aos="fade-up" data-aos-duration="200">Microlit</h4>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-sm-6 col-6">
-                    <div className="research microlit">
-                        <p data-aos="fade-up" data-aos-duration="200">Sector</p>
-                        <h4 data-aos="fade-up" data-aos-duration="200">Industrial</h4>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-sm-6 col-12">
-                    <div className="research microlit sdd">
-                        <p data-aos="fade-up" data-aos-duration="200">Role</p>
-                        <h4 data-aos="fade-up" data-aos-duration="200"><span>Strategy</span> <span>Design</span> <span>Digital</span></h4>
-                    </div>
-                </div>
-            </div>
-            <h1 className="extra-size d-md-block d-none" data-aos="fade-up" data-aos-duration="200">
-                The perfect blend of
-                <br />
-                precision and personality:
-                <br />
-                Art of engaging Science
-            </h1>
-            <h1 className="extra-size d-md-none d-block" data-aos="fade-up" data-aos-duration="200">
-                The perfect blend of precision and personality: <br />Art of engaging Science
-            </h1>
-            <p className="sec-section-white mb-md-4 mb-3" data-aos="fade-up" data-aos-duration="200">
-                Microlit, liquid handling pioneers possessed cutting-edge technology but lacked a vibrant brand presence. They partnered with us to bridge this gap, transforming complex scientific language into engaging content. From eye-catching visuals to a dynamic LinkedIn presence and targeted digital ads, overall we crafted an interactive brand story. This fresh approach not only preserved Microlit's scientific excellence but also boosted engagement and conversions.<br/>
-                Uncover how WildPunch helped Microlit connect with their audience on a deeper level, turning scientific excellence into compelling conversations. 
-            </p>
-            {showMore && (
-                <p className="sec-section-white" data-aos="fade-up" data-aos-duration="300">
-                    Microlit approached us to make a way to connect with their audience on a deeper level, crafting their brand more interactive and driving conversions, all while preserving their scientific integrity. At WildPunch, an inclusive brand refresh was undertaken, covering everything from visually appealing marketing materials to a dynamic linkedin presence that balanced storytelling and eye-catching visuals. Digital advertising campaigns were implemented to maximize conversions, and SEO strategies that improved search visibility. Crucially, the complex scientific language surrounding Microlit's products was transformed into accessible, engaging content that resonated with researchers and industry professionals. Through all this, we revitalized a brand that not only maintains its scientific credibility but also enjoys a strong digital footprint, increased engagement, and higher conversion rates. Microlit's success demonstrates the power of combining innovation with effective storytelling, turning even complex scientific concepts into engaging conversations.
-                </p>
-            )}
-
-      <div className="mt-50 sec-section-white">
-        <button className="btn" onClick={() => setShowMore(!showMore)}>
-          {showMore ? "SHOW LESS" : "KNOW MORE"} 
-          <i className="fa-solid fa-arrow-right ms-2 arrow1"></i>
-        </button>
-      </div>
-        </div>
-      </div>
       <Footer />
     </div>
   );
