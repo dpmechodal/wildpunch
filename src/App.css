@@ -749,9 +749,14 @@ p.sec-section-white{
 .sdd h4{
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 10px 40px;
+  flex-wrap: wrap;
 }
-
+.d-client-sector{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 /* media  */
 
 /* 1680 */
@@ -985,7 +990,7 @@ p.sec-section-white{
     margin-bottom: 20px;
   }
   .sdd h4 {
-    gap: 15px;
+    gap: 10px 15px;
 }
   .mt-150 {
     margin-top: 100px;
@@ -1131,7 +1136,7 @@ p.sec-section-white{
     margin-top: 40px;
   }
   .sdd h4 {
-    gap: 20px;
+    gap: 10px 15px;
 }
   .education {
     gap: 22px 18px;
@@ -1275,7 +1280,7 @@ p.sec-section-white{
     width: 90px;
   }
   .sdd h4 {
-    gap: 30px;
+    gap: 10px 15px;
 }
   .work-with-us p {
     margin-bottom: 70px;

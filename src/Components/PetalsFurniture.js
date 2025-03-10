@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import Splash from "./Splash";
 import Header from "./Header";
 import Footer from "./Footer";
-import microlitlogo from "../img/Product/Logo.mp4";
+import mainbanner from "../img/Petals/mainbanner.jpg";
 import petals1 from "../img/Petals/Petals FINAL-01.jpg";
 import petals2 from "../img/Petals/Petals FINAL-02.jpg";
 import petals3 from "../img/Petals/1.mp4";
@@ -47,33 +47,25 @@ const Home = () => {
       <Header />
       <div className="container-fluid first-section pl-pr-5">   
         <div className="row">
-            <div className="col-12 mb-3 p-0">         
-                <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
-                    <source src={microlitlogo} type="video/mp4" />
-                </video>
+            <div className="col-12 mb-3 p-0">     
+                <img src={mainbanner} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>    
         </div>     
       </div>
       <div className="first-section bg-dark pt-0">
         <div className="container py-200 main-head">
-            <div className="row g-4 micro-bottom">
-                <div className="col-lg-4 col-sm-6 col-6">
-                    <div className="research microlit">
-                        <p data-aos="fade-up" data-aos-duration="200">Client</p>
-                        <h4 data-aos="fade-up" data-aos-duration="200">Microlit</h4>
-                    </div>
+            <div className="micro-bottom d-client-sector">
+                <div className="research microlit" data-aos="fade-up" data-aos-duration="200">
+                    <p>Client</p>
+                    <h4>PETALS</h4>
                 </div>
-                <div className="col-lg-4 col-sm-6 col-6">
-                    <div className="research microlit">
-                        <p data-aos="fade-up" data-aos-duration="200">Sector</p>
-                        <h4 data-aos="fade-up" data-aos-duration="200">Industrial</h4>
-                    </div>
+                <div className="research microlit" data-aos="fade-up" data-aos-duration="200">
+                    <p>Sector</p>
+                    <h4>Industrial</h4>
                 </div>
-                <div className="col-lg-4 col-sm-6 col-12">
-                    <div className="research microlit sdd">
-                        <p data-aos="fade-up" data-aos-duration="200">Role</p>
-                        <h4 data-aos="fade-up" data-aos-duration="200"><span>Strategy</span> <span>Design</span> <span>Digital</span></h4>
-                    </div>
+                <div className="research microlit sdd" data-aos="fade-up" data-aos-duration="200">
+                    <p>Role</p>
+                    <h4><span>Strategy</span> <span>Design</span> <span>Digital</span></h4>
                 </div>
             </div>
             <h1 className="extra-size d-md-block d-none" data-aos="fade-up" data-aos-duration="200">

@@ -27,11 +27,11 @@ import dharti18 from "../img/Dharti/3.mp4";
 import dharti19 from "../img/Dharti/Dharti FINAL-19.jpg";
 import dharti20 from "../img/Dharti/Dharti FINAL-20.jpg";
 import dharti21 from "../img/Dharti/Dharti FINAL-21.jpg";
-import dharti22 from "../img/Dharti/6.mp4";
+import dharti22 from "../img/Dharti/DhartiCo_Calm Capsules.mp4";
 import dharti23 from "../img/Dharti/Dharti FINAL-22.jpg";
 import dharti24 from "../img/Dharti/4.mp4";
 import dharti25 from "../img/Dharti/Dharti FINAL-23.jpg";
-import dharti26 from "../img/Dharti/6.mp4";
+import dharti26 from "../img/Dharti/DhartiCo_Pills.mp4";
 // import dharti27 from "../img/Dharti/Dharti WebsiteVideothree.mp4";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -66,24 +66,18 @@ const Home = () => {
       </div>
       <div className="first-section bg-dark pt-0 mb-3">
         <div className="container py-200 main-head">
-            <div className="row g-4 micro-bottom">
-                <div className="col-lg-4 col-sm-6 col-6">
-                    <div className="research microlit">
-                        <p data-aos="fade-up" data-aos-duration="200">Client</p>
-                        <h4 data-aos="fade-up" data-aos-duration="200">Microlit</h4>
-                    </div>
+            <div className="micro-bottom d-client-sector">
+                <div className="research microlit" data-aos="fade-up" data-aos-duration="200">
+                    <p>Client</p>
+                    <h4>Dharti Co</h4>
                 </div>
-                <div className="col-lg-4 col-sm-6 col-6">
-                    <div className="research microlit">
-                        <p data-aos="fade-up" data-aos-duration="200">Sector</p>
-                        <h4 data-aos="fade-up" data-aos-duration="200">Industrial</h4>
-                    </div>
+                <div className="research microlit" data-aos="fade-up" data-aos-duration="200">
+                    <p>Sector</p>
+                    <h4>Industrial</h4>
                 </div>
-                <div className="col-lg-4 col-sm-6 col-12">
-                    <div className="research microlit sdd">
-                        <p data-aos="fade-up" data-aos-duration="200">Role</p>
-                        <h4 data-aos="fade-up" data-aos-duration="200"><span>Strategy</span> <span>Design</span> <span>Digital</span></h4>
-                    </div>
+                <div className="research microlit sdd" data-aos="fade-up" data-aos-duration="200">
+                    <p>Role</p>
+                    <h4><span>Strategy</span> <span>Branding</span> <span>Design</span> <span>Digital</span></h4>
                 </div>
             </div>
             <h1 className="extra-size d-md-block d-none" data-aos="fade-up" data-aos-duration="200">

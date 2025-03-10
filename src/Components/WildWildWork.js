@@ -47,27 +47,6 @@ const WildWildWork = () => {
       <div className="">
         <div className="container py-200">
           <div className="row g-lg-4 g-3">
-            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="600">
-              <Link to={"/Microlit"}>
-                <div className="work-one">
-                  <img src={gif3} className="img-fluid" />
-                  <h5>MICROLIT</h5>
-                  <h6>Branding, Print, Digital</h6>
-                </div>
-              </Link>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="800">
-              <Link to={"/PetalsFurniture"}>
-                <div className="work-one">                  
-                  {/* <video autoPlay muted loop className="img-fluid w-100">
-                      <source src={gif4} type="video/mp4" />
-                  </video> */}
-                  <img src={gif4} className="img-fluid" />
-                  <h5>PETALS FURNITURE</h5>
-                  <h6>Branding, Packaging, Digital</h6>
-                </div>
-              </Link>
-            </div>
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
               <Link to={"/DhartiCo"}>
                 <div className="work-one">
@@ -86,7 +65,16 @@ const WildWildWork = () => {
                 </div>
               </Link>
             </div>
-            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="600">
+              <Link to={"/Microlit"}>
+                <div className="work-one">
+                  <img src={gif3} className="img-fluid" />
+                  <h5>MICROLIT</h5>
+                  <h6>Branding, Print, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
               <Link to={"/ModernSchool"}>
                 <div className="work-one">    
                   <img src={gif5} className="img-fluid" />
@@ -95,33 +83,63 @@ const WildWildWork = () => {
                 </div>
               </Link>
             </div>
-            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1200">
-              {/* <Link to={"/Springtek"}> */}
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="400">
+              <Link to={"/PetalsFurniture"}>
+                <div className="work-one">                  
+                  {/* <video autoPlay muted loop className="img-fluid w-100">
+                      <source src={gif4} type="video/mp4" />
+                  </video> */}
+                  <img src={gif4} className="img-fluid" />
+                  <h5>PETALS FURNITURE</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="600">
+              <Link to={"/RDUC"}>
+                <div className="work-one">   
+                  <img src={gif6} className="img-fluid" />
+                  <h5>RDUC</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
+              <Link to={"/SiddharthAgro"}>
+                <div className="work-one">   
+                  <img src={gif6} className="img-fluid" />
+                  <h5>SIDDHARTH AGRO</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="400">
+              <Link to={"/SpringTek"}>
                 <div className="work-one">   
                   <img src={gif6} className="img-fluid" />
                   <h5>SPRINGTEK</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
-              {/* </Link> */}
+              </Link>
             </div>
-            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1400">
-              {/* <Link to={"/RDUCJewels"}> */}
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="600">
+              <Link to={"/TeaSaga"}>
                 <div className="work-one">     
-                  <img src={gif7} className="img-fluid" />
-                  <h5>RDUC JEWELS</h5>
+                  <img src={gif6} className="img-fluid" />
+                  <h5>TEA SAGA</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
-              {/* </Link> */}
+              </Link>
             </div>
-            {/* <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1600">
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
               <Link to={"/TridentHills"}>
-                <div className="work-one">    
-                  <img src={gif7} className="img-fluid" />
+                <div className="work-one">     
+                  <img src={gif6} className="img-fluid" />
                   <h5>TRIDENT HILLS</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
               </Link>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

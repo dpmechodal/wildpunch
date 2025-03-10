@@ -13,6 +13,11 @@ import DhartiCo from "./Components/DhartiCo";
 import LoomNeedles from "./Components/LoomNeedles";
 import PetalsFurniture from "./Components/PetalsFurniture";
 import ModernSchool from "./Components/ModernSchool";
+import RDUC from "./Components/RDUC";
+import SiddharthAgro from "./Components/SiddharthAgro";
+import SpringTek from "./Components/SpringTek";
+import TeaSaga from "./Components/TeaSaga";
+import TridentHills from "./Components/TridentHills";
 
 function App() {
   return (
@@ -32,6 +37,11 @@ function App() {
             <Route path="/LoomNeedles" element={<LoomNeedles />} />
             <Route path="/PetalsFurniture" element={<PetalsFurniture />} />
             <Route path="/ModernSchool" element={<ModernSchool />} />
+            <Route path="/RDUC" element={<RDUC />} />
+            <Route path="/SiddharthAgro" element={<SiddharthAgro />} />
+            <Route path="/SpringTek" element={<SpringTek />} />
+            <Route path="/TeaSaga" element={<TeaSaga />} />
+            <Route path="/TridentHills" element={<TridentHills />} />
           </Routes>
         </Router>
       </div>
