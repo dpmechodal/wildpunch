@@ -466,6 +466,7 @@ select.form-select option {
   width: fit-content;
   cursor: pointer;
   font-size: 15px;
+  bottom: -50px !important;
 }
 .custom-arrow:hover {
   background-color: #ffc700;
@@ -489,6 +490,7 @@ select.form-select option {
   width: fit-content;
   cursor: pointer;
   font-size: 15px;
+  bottom: -50px !important;
 }
 .testi:hover {
   background-color: #ffc700;
@@ -756,6 +758,9 @@ p.sec-section-white{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.head-color h4{
+  color: #ffc700;
 }
 /* media  */
 
@@ -1391,6 +1396,12 @@ p.sec-section-white{
   .education p {
     padding: 10px 20px;
     font-size: 16px !important;
+  }  
+  .custom-arrow.next-arrow {
+    bottom: -40px !important;
+  }
+  .custom-arrow.prev-arrow {
+    bottom: -40px !important;
   }
   .address {
     margin-right: 0;
@@ -1649,11 +1660,11 @@ p.sec-section-white{
     font-weight: 300 !important;
   }
   .custom-arrow.next-arrow {
-    bottom: -30px;
+    bottom: -30px !important;
     right: 20%;
   }
   .custom-arrow.prev-arrow {
-    bottom: -30px;
+    bottom: -30px !important;
     left: 20%;
   }
   .custom-arrow,

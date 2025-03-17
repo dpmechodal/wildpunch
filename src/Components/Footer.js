@@ -32,8 +32,8 @@ const Footer = () => {
                 <div className="address">
                   <p><i class="fa-solid fa-location-dot"></i></p>
                   <h5>
-                    3/10, Ground Floor, Prem Apartments, Sapru Marg, Lucknow, UP
-                    226001
+                    <a href="https://maps.app.goo.gl/CJbGe7iZEQxh4MQM8" target="_blank">3/10, Ground Floor, Prem Apartments, Sapru Marg, Lucknow, UP
+                    226001</a>
                   </h5>
                 </div>
                 <div className="address">
@@ -81,13 +81,13 @@ const Footer = () => {
                   <h6 className="mb-1">FOLLOW US ON</h6>
                 </div>
                 <div className="social-link">
-                  <a href="#">
+                  <a href="https://www.facebook.com/wildpunchdesign">
                     <i class="fa-brands fa-square-facebook"></i>
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/wildpunch/">
                     <i class="fa-brands fa-instagram"></i>
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/wildpunch-design/posts/?feedView=all">
                     <i class="fa-brands fa-linkedin-in"></i>
                   </a>
                 </div>

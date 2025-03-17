@@ -182,22 +182,6 @@ const Home = () => {
                 </div>    
             </div>     
           </div>
-          {/* <div className="container-fluid pl-pr-5">   
-            <div className="row">
-                <div className="col-12 mb-3 p-0">
-                    <img src={petals16} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
-                </div>    
-            </div>     
-          </div>
-          <div className="container-fluid pl-pr-5">   
-            <div className="row">
-                <div className="col-12 mb-3 p-0">
-                    <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
-                        <source src={petals18} type="video/mp4" />
-                    </video>
-                </div>    
-            </div>     
-          </div> */}
           <div className="container-fluid pl-pr-5">   
             <div className="row">
                 <div className="col-12 mb-3 p-0">

@@ -12,6 +12,11 @@ import worktwo from "../img/work-2.svg";
 import workthree from "../img/work-3.svg";
 import workfour from "../img/work-4.svg";
 import workfive from "../img/work-5.svg";
+import gif1 from "../img/Product/dhartico.gif";
+import gif2 from "../img/Product/loom-and-needles.gif";
+import gif3 from "../img/Product/microlit.gif";
+import gif4 from "../img/Product/petals-furniture.gif";
+import gif5 from "../img/Product/modern-school.gif";
 import a from "../img/1.svg";
 import b from "../img/2.svg";
 import c from "../img/3.svg";
@@ -92,50 +97,65 @@ const Home = () => {
         </div>
       </div>
       <div className="sec-section ">
-        <div className="container py-200">
+        <div className="container py-200 pb-0">
           <p className="mb-50" data-aos="fade-up" data-aos-duration="200">
             WILD WILD WORK
           </p>
+        </div>
+      </div>
+      <div className="">
+        <div className="container">
           <div className="row g-lg-4 g-3">
             <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              <div className="work-one">
-                <img src={workone} className="img-fluid" alt=""/>
-                <h5>KOKAM PLY</h5>
-                <h6>Branding, Print, Digital</h6>
-              </div>
+              <Link to={"/DhartiCo"}>
+                <div className="work-one">
+                  <img src={gif1} className="img-fluid w-100" />
+                  <h5>DHARTI CO.</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              </Link>
             </div>
             <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              <div className="work-one">
-                <img src={worktwo} className="img-fluid" alt="" />
-                <h5>JABRA</h5>
-                <h6>Branding, Print, Digital</h6>
-              </div>
+              <Link to={"/LoomNeedles"}>
+                <div className="work-one">
+                  <img src={gif2} className="img-fluid w-100" />
+                  <h5>LOOMS & NEEDLES</h5>
+                  <h6>Branding, Digital</h6>
+                </div>
+              </Link>
             </div>
             <div className="col-12" data-aos="fade-up" data-aos-duration="200">
-              <div
-                className="work-one">
-                <img src={workthree} className="img-fluid" alt=""/>
-                <h5>MICROLIT</h5>
-                <h6>Print, Digital</h6>
-              </div>
+              <Link to={"/Microlit"}>
+                <div className="work-one">
+                  <img src={gif3} className="img-fluid w-100" />
+                  <h5>MICROLIT</h5>
+                  <h6>Branding, Print, Digital</h6>
+                </div>
+              </Link>
             </div>
             <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              <div
-                className="work-one">
-                <img src={workfour} className="img-fluid" alt=""/>
-                <h5>TRIDENT REALTY</h5>
-                <h6>Branding, Print, Digital</h6>
-              </div>
+              <Link to={"/ModernSchool"}>
+                <div className="work-one">    
+                  <img src={gif5} className="img-fluid w-100" />
+                  <h5>MODERN SCHOOL</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              </Link>
             </div>
             <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              <div
-                className="work-one">
-                <img src={workfive} className="img-fluid" alt=""/>
-                <h5>SPRINGTEK</h5>
-                <h6>Print, Digital</h6>
-              </div>
+              <Link to={"/PetalsFurniture"}>
+                <div className="work-one">         
+                  <img src={gif4} className="img-fluid w-100" />
+                  <h5>PETALS FURNITURE</h5>
+                  <h6>Branding, Packaging, Digital</h6>
+                </div>
+              </Link>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="sec-section ">
+        <div className="container py-200 pt-0">
           <div className="mt-50" data-aos="fade-up" data-aos-duration="200">
             <Link to={"/WildWildWork"}>
               ALL PROJECTS <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
@@ -154,7 +174,7 @@ const Home = () => {
           <h2 data-aos="fade-up" data-aos-duration="600">
             <b>Ideas, strategy, tech & execution.</b>
           </h2>
-          <div className="row g-xl-5 g-4">
+          <div className="row g-xl-5 g-4 head-color">
             <div className="col-lg-4 col-sm-6 col-6" data-aos="fade-up" data-aos-duration="200">
               <div className="research">
                 <h4>Research</h4>
