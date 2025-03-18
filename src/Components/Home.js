@@ -69,7 +69,7 @@ const Home = () => {
         <div
           className="container py-300 main-head">
           <h1 className="extra-size" data-aos="fade-up" data-aos-duration="200">
-            Catalysts for Change
+            Catalysts for Change.
             <br />
             Agitators for Growth.
           </h1>

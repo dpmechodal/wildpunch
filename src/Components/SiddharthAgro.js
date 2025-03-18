@@ -67,21 +67,17 @@ const Home = () => {
                     </div>
                 </div>
                 <h1 className="extra-size d-md-block d-none" data-aos="fade-up" data-aos-duration="200">
-                    Furniture in need 
-                    <br />
-                    of a Spotlight:
-                    <br />
-                    Journey from Zero to Hero
+                    Cultivated a Brand Story
                 </h1>
                 <h1 className="extra-size d-md-none d-block" data-aos="fade-up" data-aos-duration="200">
-                    Furniture in need of a Spotlight:  <br />Journey from Zero to Hero
+                    Cultivated a Brand Story
                 </h1>
                 <p className="sec-section-white mb-md-4 mb-3" data-aos="fade-up" data-aos-duration="200">
-                    Petals Furniture, suppliers of practical plastic yet stylish furniture, was facing a digital dilemma: a great product, but minimal online presence. We crafted a digital strategy, weaving together engaging social media content, influencer collaborations and website optimization. This resulted in Petals witnessing explosive growth, gaining followers and engagement like never before. Check out how we at WildPunch and our team transformed a brand's digital footprint and built a thriving online community.
+                Siddharth Agro, a producer of premium organic products, reached us to enhance its presence and amplify its commitment to quality. They partnered to design a unified brand experience, spanning from a visually appealing website to innovative packaging and mockups. The goal was to showcase the brand's dedication to organic farming, quality ingredients, and flavor through a compelling visual and digital narrative. This multi-channel approach ensured a seamless and engaging brand story that resonated with customers across their consumer base.
                 </p>
                 {showMore && (
                     <p className="sec-section-white" data-aos="fade-up" data-aos-duration="300">
-                        Petals as a brand that provides high-quality plastic furniture with nationwide delivery, faced the challenge of establishing a strong online presence to drive sales. Lacking a digital footprint, they needed to build trust and showcase the stylish, as well as practical nature of their products. We welcomed them and a comprehensive digital strategy was created that involved focusing on social media, linkedin, and website optimization. The brand's online presence was transformed, incorporating authentic content like user-generated instagram reels and customer stories to connect with a wider audience. Along with this, strategic influencer partnerships further expanded their reach. Within a week or two of the first campaign, Petals Furniture saw remarkable growth, gaining 1K+ followers and experiencing significant engagement. This digital transformation not only increased their audience but also enhanced strong brand recall and built a community, demonstrating the power of combining quality products with effective digital marketing to drive conversions.
+                        We at Wild Punch worked closely with Siddharth Agro to elevate their brand through a cohesive design strategy. We began by creating a user-friendly and visually striking website that showcased the brand's story, mission, and integrated their high-quality organic products. The website provided an engaging digital experience, providing customers a seamless experience to learn about the origins of the products, explore different offerings, and easily make purchases. Along with this, we also focused on tweaking Siddharth Agro's product packaging. The new designs not only highlighted the organic nature of the products but also featured vibrant, earthy tones that conveyed the brand's commitment to sustainability and natural goodness. Additionally, we developed detailed mockups to visualize how the packaging would translate across various product lines. This allowed Siddharth Agro to showcase their products in an impactful way. Through each touchpoint - website, packaging, and mockups we created a consistent and appealing brand identity that resonated with customers and reinforced Siddharth Agro's position as a trusted producer of quality, flavorful organic products.
                     </p>
                 )}
     
