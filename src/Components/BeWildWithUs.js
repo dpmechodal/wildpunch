@@ -120,6 +120,7 @@ const BeWildWithUs = () => {
                     <option>SEO Analyst</option>
                     <option>Web Developer</option>
                     <option>Business Development Manager</option>
+                    <option>Business Development Manager</option>
                   </select>
                 </div>
                 <div class="mb-md-4 mb-3 ps-md-4 col-md-6 upload-button">
