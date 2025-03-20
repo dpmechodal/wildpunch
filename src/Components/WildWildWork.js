@@ -10,6 +10,11 @@ import gif4 from "../img/Product/petals-furniture.gif";
 import gif5 from "../img/Product/modern-school.gif";
 import gif6 from "../img/Product/gate-way.gif";
 import gif7 from "../img/Product/jabra.gif";
+import gif8 from "../img/Product/rduc.svg";
+import gif9 from "../img/Product/SIDDHARTH-AGRO.png";
+import gif10 from "../img/Product/SPRINGTEK.svg";
+import gif11 from "../img/Product/The-Tea-Saaga.svg";
+import gif12 from "../img/Product/Trident-Hills.svg";
 // import rducbanner from "../img/RDUC/RDUC reel_V01.mp4";
 import CursorErrow from "./CursorErrow";
 import AOS from "aos";
@@ -99,7 +104,7 @@ const WildWildWork = () => {
                   {/* <video autoPlay muted loop className="img-fluid w-100">
                       <source src={rducbanner} type="video/mp4" />
                   </video> */}
-                  <img src={gif6} className="img-fluid" />
+                  <img src={gif8} className="img-fluid" />
                   <h5>RDUC</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
@@ -108,7 +113,7 @@ const WildWildWork = () => {
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
               <Link to={"/SiddharthAgro"}>
                 <div className="work-one">   
-                  <img src={gif6} className="img-fluid" />
+                  <img src={gif9} className="img-fluid" />
                   <h5>SIDDHARTH AGRO</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
@@ -117,7 +122,7 @@ const WildWildWork = () => {
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="400">
               <Link to={"/SpringTek"}>
                 <div className="work-one">   
-                  <img src={gif6} className="img-fluid" />
+                  <img src={gif10} className="img-fluid" />
                   <h5>SPRINGTEK</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
@@ -126,7 +131,7 @@ const WildWildWork = () => {
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="600">
               <Link to={"/TeaSaga"}>
                 <div className="work-one">     
-                  <img src={gif6} className="img-fluid" />
+                  <img src={gif11} className="img-fluid" />
                   <h5>TEA SAGA</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
@@ -135,7 +140,7 @@ const WildWildWork = () => {
             <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
               <Link to={"/TridentHills"}>
                 <div className="work-one">     
-                  <img src={gif6} className="img-fluid" />
+                  <img src={gif12} className="img-fluid" />
                   <h5>TRIDENT HILLS</h5>
                   <h6>Branding, Packaging, Digital</h6>
                 </div>
