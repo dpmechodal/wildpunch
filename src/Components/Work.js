@@ -1,6 +1,21 @@
 import React, { useEffect } from "react";
 import Slider from "react-slick";
-import SliderImg from "../img/slider-img.png";
+import a from "../img/OfficePhotos/a.JPG";
+import b from "../img/OfficePhotos/b.JPG";
+import c from "../img/OfficePhotos/c.JPG";
+import d from "../img/OfficePhotos/d.JPG";
+import e from "../img/OfficePhotos/e.JPG";
+import f from "../img/OfficePhotos/f.JPG";
+import g from "../img/OfficePhotos/g.JPG";
+import h from "../img/OfficePhotos/h.JPG";
+import i from "../img/OfficePhotos/i.JPG";
+import j from "../img/OfficePhotos/j.jpg";
+import k from "../img/OfficePhotos/k.jpg";
+import l from "../img/OfficePhotos/l.jpg";
+import m from "../img/OfficePhotos/m.jpg";
+import n from "../img/OfficePhotos/n.JPG";
+import o from "../img/OfficePhotos/o.JPG";
+import p from "../img/OfficePhotos/p.JPG";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import CursorErrow from "./CursorErrow";
@@ -121,13 +136,52 @@ export default function Profile() {
           <div className="overlay"></div>
           <Slider {...settings}>
             <div className="card-container">
-              <img src={SliderImg} className="img-fluid" alt={"..."} />
+              <img src={a} className="img-fluid" alt={"..."} />
             </div>
             <div className="card-container">
-              <img src={SliderImg} className="img-fluid" alt={"..."} />
+              <img src={b} className="img-fluid" alt={"..."} />
             </div>
             <div className="card-container">
-              <img src={SliderImg} className="img-fluid" alt={"..."} />
+              <img src={c} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={d} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={e} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={f} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={g} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={h} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={i} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={j} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={k} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={l} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={m} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={n} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={o} className="img-fluid" alt={"..."} />
+            </div>
+            <div className="card-container">
+              <img src={p} className="img-fluid" alt={"..."} />
             </div>
           </Slider>
         </div>

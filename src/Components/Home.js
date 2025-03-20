@@ -41,6 +41,7 @@ import u from "../img/21.svg";
 import v from "../img/22.svg";
 import w from "../img/23.svg";
 import x from "../img/24.svg";
+import y from "../img/25.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useLocation } from "react-router-dom";
@@ -258,70 +259,73 @@ const Home = () => {
               <img src={b} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={c} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="300"/>
+              <img src={c} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={d} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="400"/>
+              <img src={d} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={e} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="500"/>
+              <img src={e} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={f} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="600"/>
+              <img src={f} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={g} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="700"/>
+              <img src={g} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={h} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="800"/>
+              <img src={h} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={i} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="900"/>
+              <img src={i} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={j} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="1000"/>
+              <img src={j} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={k} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="1100"/>
+              <img src={k} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={l} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="1200"/>
+              <img src={l} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={m} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="1300"/>
+              <img src={m} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={n} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="1400"/>
+              <img src={n} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={o} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="1500"/>
+              <img src={o} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={p} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="1600"/>
+              <img src={p} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={q} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="1700"/>
+              <img src={q} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={r} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="1800"/>
+              <img src={r} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={s} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="1900"/>
+              <img src={s} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={t} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="2000"/>
+              <img src={t} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={u} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="2100"/>
+              <img src={u} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={v} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="2200"/>
+              <img src={v} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={w} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="2300"/>
+              <img src={w} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={x} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="2400"/>
+              <img src={x} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+            </div>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
+              <img src={y} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
           </div>
         </div>
