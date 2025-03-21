@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Slider from "react-slick";
 import a from "../img/OfficePhotos/1.JPG";
 import b from "../img/OfficePhotos/2.JPG";
@@ -16,166 +16,75 @@ import m from "../img/OfficePhotos/13.JPG";
 import n from "../img/OfficePhotos/14.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import CursorErrow from "./CursorErrow";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useLocation } from "react-router-dom";
-
-function NextArrow(props) {
-  const { onClick } = props;
-  return (
-    <div className="custom-arrow next-arrow" onClick={onClick}>
-      <i class="fa-solid fa-arrow-right-long arrow1"></i>
-    </div>
-  );
-}
-
-function PrevArrow(props) {
-  const { onClick } = props;
-  return (
-    <div className="custom-arrow prev-arrow" onClick={onClick}>
-      <i class="fa-solid fa-arrow-left-long arrow1"></i>
-    </div>
-  );
-}
 
 export default function Profile() {
-  const location = useLocation(); // Detect route changes
+  const [progress, setProgress] = useState(0);
+  const totalSlides = 14;
 
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Animation duration in ms
-      offset: 200,
-      once: false, // Whether animation should happen only once
-    });
-    setTimeout(() => {
-      AOS.refresh(); // Ensure AOS elements are reloaded after DOM changes
-    }, 500); // Add a small delay if elements aren't detected immediately
-  }, [location]);
+  // Slider reference
+  const sliderRef = useRef(null);
+
+  // Arrow click handlers
+  const goToPrev = () => {
+    if (sliderRef.current) {
+      sliderRef.current.slickPrev();
+    }
+  };
+
+  const goToNext = () => {
+    if (sliderRef.current) {
+      sliderRef.current.slickNext();
+    }
+  };
+
   const settings = {
     infinite: true,
     speed: 300,
-    // dots: true,
+    dots: false,
     slidesToShow: 1.67,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    // margin: 20,
     centerMode: true,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    afterChange: (index) => {
+      setProgress(((index + 1) / totalSlides) * 100);
+    },
     responsive: [
       {
         breakpoint: 1025,
-        settings: {
-          slidesToShow: 1.67,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 1.67,
-        },
+        settings: { slidesToShow: 1.67 },
       },
       {
         breakpoint: 768,
-        settings: {
-          slidesToShow: 1.67,
-        },
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 525,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 425,
-        settings: {
-          slidesToShow: 1,
-          centerMode: false,
-        },
-      },
-      {
-        breakpoint: 375,
-        settings: {
-          slidesToShow: 1,
-          centerMode: false,
-        },
-      },
-      {
-        breakpoint: 320,
-        settings: {
-          slidesToShow: 1,
-          centerMode: false,
-        },
+        settings: { slidesToShow: 1 },
       },
     ],
   };
 
   return (
     <>
-      {/* <CursorErrow /> */}
       <main>
-        <div
-          className="slider">
-          <div className="overlay"></div>
-          <Slider {...settings}>
-            <div className="card-container">
-              <img src={a} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={b} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={c} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={d} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={e} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={f} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={g} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={h} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={i} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={j} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={k} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={l} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={m} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={n} className="img-fluid" alt={"..."} />
-            </div>
+        <div className="slider-container">
+          <Slider ref={sliderRef} {...settings}>
+            {[a, b, c, d, e, f, g, h, i, j, k, l, m, n].map((img, index) => (
+              <div key={index} className="card-container">
+                <img src={img} className="img-fluid" alt={`Slide ${index}`} />
+              </div>
+            ))}
           </Slider>
+
+          {/* Arrows & Progress Bar Container */}
+          <div className="slider-controls">
+            <div className="prev-arrow" onClick={goToPrev}>
+              <i className="fa-solid fa-arrow-left-long"></i>
+            </div>
+            <div className="slider-progress">
+              <div className="progress-bar" style={{ width: `${progress}%` }}></div>
+            </div>
+            <div className="next-arrow" onClick={goToNext}>
+              <i className="fa-solid fa-arrow-right-long"></i>
+            </div>
+          </div>
         </div>
       </main>
     </>

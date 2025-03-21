@@ -103,6 +103,7 @@ const BeWildWithUs = () => {
                 </div>
                 <div class="mb-md-4 mb-3 pe-md-4 col-md-6">
                   <select className="form-select">
+                    <option>Applying For</option>
                     <option>Content Strategist</option>
                     <option>Content Writer</option>
                     <option>Copywriter</option>

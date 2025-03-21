@@ -766,6 +766,84 @@ p.sec-section-white{
   font-size: 32px;
 }
 
+/* Slider */
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 40px; 
+}
+
+.slick-slider {
+  overflow: hidden;
+}
+
+.slider-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; 
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+}
+
+.prev-arrow,
+.next-arrow {
+  cursor: pointer;
+  font-size: 20px;
+  color: #000;
+  background: #FFF;
+  padding: 0;
+  border-radius: 100px;
+  transition: background 0.3s;
+  width: 58.021px;
+  height: 27.243px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prev-arrow i,
+.next-arrow i {
+  line-height: normal;
+}
+.prev-arrow:hover,
+.next-arrow:hover {
+  background: #FFC700;
+}
+
+.bg-people-color {
+  color: #FFF;
+  background: #303030;
+}
+.bg-people-color:hover{
+  background: #FFC700;
+  color: #000;
+}
+.slider-progress {
+  flex: 1;
+  height: 2px;
+  background: #7E7F7F;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #fff;
+  transition: width 0.3s ease-in-out;
+}
+
+.peo-progress {
+  background: #D0D3D6;
+}
+
+.peo-bar {
+  background: #303030;
+}
+
+
 /* media  */
 
 /* 1680 */
@@ -1290,10 +1368,18 @@ p.sec-section-white{
   .hw-img img {
     height: 80px;
     width: 90px;
+  }  
+  .slider-controls {
+    width: 80%;
+  }
+  .prev-arrow, .next-arrow {
+    font-size: 14px;
+    width: 48px;
+    height: 21px;
   }
   .sdd h4 {
     gap: 10px 15px;
-}
+  }
   .work-with-us p {
     margin-bottom: 70px;
   }
