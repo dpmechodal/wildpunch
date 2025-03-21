@@ -75,7 +75,7 @@ const Footer = () => {
               <div className="work-with-us">
                 <h4>WORK WITH US</h4>
                 <p>
-                  <a href="mailto:jobs@wildpunch.in">jobs@wildpunch.in</a>
+                  <a href="mailto:careers@wildpunch.in">careers@wildpunch.in</a>
                 </p>
                 <div className="find-us">
                   <h6 className="mb-1">FOLLOW US ON</h6>

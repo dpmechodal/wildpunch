@@ -1,21 +1,19 @@
 import React, { useEffect } from "react";
 import Slider from "react-slick";
-import a from "../img/OfficePhotos/a.JPG";
-import b from "../img/OfficePhotos/b.JPG";
-import c from "../img/OfficePhotos/c.JPG";
-import d from "../img/OfficePhotos/d.JPG";
-import e from "../img/OfficePhotos/e.JPG";
-import f from "../img/OfficePhotos/f.JPG";
-import g from "../img/OfficePhotos/g.JPG";
-import h from "../img/OfficePhotos/h.JPG";
-import i from "../img/OfficePhotos/i.JPG";
-import j from "../img/OfficePhotos/j.jpg";
-import k from "../img/OfficePhotos/k.jpg";
-import l from "../img/OfficePhotos/l.jpg";
-import m from "../img/OfficePhotos/m.jpg";
-import n from "../img/OfficePhotos/n.JPG";
-import o from "../img/OfficePhotos/o.JPG";
-import p from "../img/OfficePhotos/p.JPG";
+import a from "../img/OfficePhotos/1.JPG";
+import b from "../img/OfficePhotos/2.JPG";
+import c from "../img/OfficePhotos/3.png";
+import d from "../img/OfficePhotos/4.JPG";
+import e from "../img/OfficePhotos/5.JPG";
+import f from "../img/OfficePhotos/6.JPG";
+import g from "../img/OfficePhotos/7.png";
+import h from "../img/OfficePhotos/8.JPG";
+import i from "../img/OfficePhotos/9.jpg";
+import j from "../img/OfficePhotos/10.JPG";
+import k from "../img/OfficePhotos/11.png";
+import l from "../img/OfficePhotos/12.JPG";
+import m from "../img/OfficePhotos/13.JPG";
+import n from "../img/OfficePhotos/14.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import CursorErrow from "./CursorErrow";
@@ -61,7 +59,7 @@ export default function Profile() {
     slidesToShow: 1.67,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     // margin: 20,
     centerMode: true,
     nextArrow: <NextArrow />,
@@ -176,12 +174,6 @@ export default function Profile() {
             </div>
             <div className="card-container">
               <img src={n} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={o} className="img-fluid" alt={"..."} />
-            </div>
-            <div className="card-container">
-              <img src={p} className="img-fluid" alt={"..."} />
             </div>
           </Slider>
         </div>

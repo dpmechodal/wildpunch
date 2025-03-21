@@ -762,6 +762,9 @@ p.sec-section-white{
 .head-color h4{
   color: #ffc700;
 }
+.product-p p{
+  font-size: 32px;
+}
 
 /* media  */
 
@@ -1133,7 +1136,10 @@ p.sec-section-white{
   }
   .big-small p {
     font-size: 18px !important;
-  }
+  }  
+.product-p p{
+  font-size: 28px;
+}
 }
 
 /* 992 */
@@ -1803,6 +1809,9 @@ p.sec-section-white{
   }
   .education {
     gap: 18px 10px;
+  }
+  .product-p p{
+    font-size: 16px;
   }
 }
 

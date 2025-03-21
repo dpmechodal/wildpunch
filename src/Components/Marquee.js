@@ -1,5 +1,4 @@
 import React from "react";
-import c1 from "../img/client-1.svg";
 import c2 from "../img/client-2.svg";
 import c3 from "../img/client-3.svg";
 import c4 from "../img/client-4.svg";
@@ -8,7 +7,7 @@ import c6 from "../img/client-6.svg";
 import CursorErrow from "./CursorErrow";
 
 export default function Marquee() {
-  const images = [c1, c2, c3, c4, c5, c6];
+  const images = [c2, c3, c4, c5, c6,c2, c3, c4, c5, c6];
 
   return (
     <div className="marquee">

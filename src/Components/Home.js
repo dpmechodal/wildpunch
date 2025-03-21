@@ -14,7 +14,7 @@ import workfour from "../img/work-4.svg";
 import workfive from "../img/work-5.svg";
 import gif1 from "../img/Product/dhartico.gif";
 import gif2 from "../img/Product/loom-and-needles.gif";
-import gif3 from "../img/Product/microlit.gif";
+import gif3 from "../img/Product/MICROLIT-HOME.jpg";
 import gif4 from "../img/Product/petals-furniture.gif";
 import gif5 from "../img/Product/modern-school.gif";
 import a from "../img/1.svg";
@@ -259,6 +259,9 @@ const Home = () => {
               <img src={b} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
+              <img src={y} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+            </div>
+            <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
               <img src={c} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
@@ -301,9 +304,6 @@ const Home = () => {
               <img src={p} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={q} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
-            </div>
-            <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
               <img src={r} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
@@ -325,7 +325,7 @@ const Home = () => {
               <img src={x} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={y} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img src={q} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
           </div>
         </div>
