@@ -67,7 +67,7 @@ const Home = () => {
         </div>     
       </div>
       <div className="first-section bg-dark pt-0">
-        <div className="container py-200 main-head">
+        <div className="container py-200 main-head product-p">
             <div className="row g-4 micro-bottom">
                 <div className="col-lg-4 col-sm-6 col-6">
                     <div className="research microlit">

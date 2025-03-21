@@ -57,7 +57,7 @@ const Home = () => {
             </div>     
           </div>
           <div className="first-section bg-dark pt-0">
-            <div className="container py-200 main-head">
+            <div className="container py-200 main-head product-p">
                 <div className="micro-bottom d-client-sector">
                     <div className="research microlit" data-aos="fade-up" data-aos-duration="200">
                         <p>Client</p>
