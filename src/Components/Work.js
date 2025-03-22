@@ -67,7 +67,7 @@ export default function Profile() {
         <div className="slider-container">
           <Slider ref={sliderRef} {...settings}>
             {[a, b, c, d, e, f, g, h, i, j, k, l, m, n].map((img, index) => (
-              <div key={index} className="card-container">
+              <div key={index} className="card-container work-slid">
                 <img src={img} className="img-fluid" alt={`Slide ${index}`} />
               </div>
             ))}

@@ -12,11 +12,11 @@ import worktwo from "../img/work-2.svg";
 import workthree from "../img/work-3.svg";
 import workfour from "../img/work-4.svg";
 import workfive from "../img/work-5.svg";
-import gif1 from "../img/Product/dhartico.gif";
-import gif2 from "../img/Product/loom-and-needles.gif";
+import gif1 from "../img/kokam-ply.jpg";
+import gif2 from "../img/jabra.jpg";
 import gif3 from "../img/Product/MICROLIT-HOME.jpg";
-import gif4 from "../img/Product/petals-furniture.gif";
-import gif5 from "../img/Product/modern-school.gif";
+import gif4 from "../img/TridentHills.jpg";
+import gif5 from "../img/SpringTek.jpg";
 import a from "../img/1.svg";
 import b from "../img/2.svg";
 import c from "../img/3.svg";
@@ -108,47 +108,47 @@ const Home = () => {
         <div className="container">
           <div className="row g-lg-4 g-3">
             <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              <Link to={"/DhartiCo"}>
+              {/* <Link to={"/"}> */}
                 <div className="work-one">
                   <img src={gif1} className="img-fluid w-100" />
-                  <h5>DHARTI CO.</h5>
-                  <h6>Branding, Packaging, Digital</h6>
+                  <h5>KOKAM PLY</h5>
+                  <h6>Branding, Print, Digital</h6>
                 </div>
-              </Link>
+              {/* </Link> */}
             </div>
             <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              <Link to={"/LoomNeedles"}>
+              {/* <Link to={"/"}> */}
                 <div className="work-one">
                   <img src={gif2} className="img-fluid w-100" />
-                  <h5>LOOMS & NEEDLES</h5>
-                  <h6>Branding, Digital</h6>
+                  <h5>JABRA</h5>
+                  <h6>Branding, Print, Digital</h6>
                 </div>
-              </Link>
+              {/* </Link> */}
             </div>
             <div className="col-12" data-aos="fade-up" data-aos-duration="200">
               <Link to={"/Microlit"}>
                 <div className="work-one">
                   <img src={gif3} className="img-fluid w-100" />
                   <h5>MICROLIT</h5>
+                  <h6>Print, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
+              <Link to={"/TridentHills"}>
+                <div className="work-one">    
+                  <img src={gif4} className="img-fluid w-100" />
+                  <h5>TRIDENT REALTY</h5>
                   <h6>Branding, Print, Digital</h6>
                 </div>
               </Link>
             </div>
             <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              <Link to={"/ModernSchool"}>
-                <div className="work-one">    
-                  <img src={gif5} className="img-fluid w-100" />
-                  <h5>MODERN SCHOOL</h5>
-                  <h6>Branding, Packaging, Digital</h6>
-                </div>
-              </Link>
-            </div>
-            <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              <Link to={"/PetalsFurniture"}>
+              <Link to={"/SpringTek"}>
                 <div className="work-one">         
-                  <img src={gif4} className="img-fluid w-100" />
-                  <h5>PETALS FURNITURE</h5>
-                  <h6>Branding, Packaging, Digital</h6>
+                  <img src={gif5} className="img-fluid w-100" />
+                  <h5>SPRINGTEK</h5>
+                  <h6>Print, Digital</h6>
                 </div>
               </Link>
             </div>
@@ -259,7 +259,7 @@ const Home = () => {
               <img src={b} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={y} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img src={y} alt="" className="img-fluid h-auto"  data-aos="fade-up" data-aos-duration="200"/>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
               <img src={c} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>

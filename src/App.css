@@ -455,6 +455,9 @@ select.form-select option {
 .slick-slide {
   padding: 0 10px;
 }
+.work-slid{
+  padding: 0 10px;
+}
 .heroSlider-fixed .slider {
   margin: 0 -20px;
 }
@@ -538,6 +541,7 @@ select.form-select option {
 }
 .company-logo img {
   width: 100px;
+  height: 33px;
 }
 
 .marquee {
@@ -1224,7 +1228,10 @@ p.sec-section-white{
 @media (max-width: 1024px) {
   .mt-50 {
     margin-top: 40px;
-  }
+  }  
+.work-slid{
+  padding: 0 5px;
+}
   .sdd h4 {
     gap: 10px 15px;
 }
@@ -1369,6 +1376,9 @@ p.sec-section-white{
     height: 80px;
     width: 90px;
   }  
+  .work-slid {
+    padding: 0 10px;
+}
   .slider-controls {
     width: 80%;
   }
@@ -1490,6 +1500,9 @@ p.sec-section-white{
     padding: 10px 20px;
     font-size: 16px !important;
   }  
+  .work-slid {
+    padding: 0 5px;
+}
   .custom-arrow.next-arrow {
     bottom: -40px !important;
   }
@@ -1598,6 +1611,9 @@ p.sec-section-white{
   .navbar {
     padding: 15px 0;
   }
+  .work-slid {
+    padding: 0 3px;
+}
   .people-card h5 {
     font-size: 14px;
   }
@@ -1689,6 +1705,9 @@ p.sec-section-white{
     padding: 8px 16px;
     font-size: 16px !important;
   }
+  .work-slid {
+    padding: 0 2px;
+}
 }
 
 /* 425 */
@@ -1699,6 +1718,9 @@ p.sec-section-white{
   }
   .all-gifs-microlit {
     margin-bottom: 20px;
+}
+.work-slid {
+  padding: 0 0px;
 }
 .mt-150 {
   margin-top: 0;

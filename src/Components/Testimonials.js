@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import { useLocation } from "react-router-dom";
 import Somya from "../img/Somya.svg";
 import Aviral from "../img/Aviral.svg";
+import microlit from "../img/microlit.svg";
 import d from "../img/4.svg";
 import s from "../img/19.svg";
 
@@ -37,7 +38,7 @@ export default function Profile() {
       position: "Director, Microlit",
       image: Aviral,
       review: "Flexible, strategic, and always on point. Their creative approach kept us ahead of the curve.",
-      companyLogo: s,
+      companyLogo: microlit,
     },
     {
       id: 3,
@@ -53,7 +54,7 @@ export default function Profile() {
       position: "Director, Microlit",
       image: Aviral,
       review: "Flexible, strategic, and always on point. Their creative approach kept us ahead of the curve.",
-      companyLogo: s,
+      companyLogo: microlit,
     },
   ];
 
