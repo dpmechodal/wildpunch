@@ -541,7 +541,7 @@ select.form-select option {
 }
 .company-logo img {
   width: 100px;
-  height: 33px;
+  /* height: 33px; */
 }
 
 .marquee {

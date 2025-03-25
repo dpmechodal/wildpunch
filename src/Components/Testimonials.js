@@ -5,11 +5,22 @@ import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useLocation } from "react-router-dom";
-import Somya from "../img/Somya.svg";
-import Aviral from "../img/Aviral.svg";
-import microlit from "../img/microlit.svg";
-import d from "../img/4.svg";
-import s from "../img/19.svg";
+import b1 from "../img/brand-logos/Loom.png"
+import b2 from "../img/brand-logos/Modern School.png"
+import b3 from "../img/brand-logos/Petals.png"
+import b4 from "../img/brand-logos/Trident Hills.png"
+import b5 from "../img/brand-logos/jabra.svg"
+import b6 from "../img/brand-logos/Kokam.png"
+import b7 from "../img/brand-logos/Shalimar.png"
+import b8 from "../img/brand-logos/Kashi.png"
+import a from "../img/clients/Namit-Goel.png"
+import b from "../img/clients/Siddhart-kapoor.png"
+import c from "../img/clients/Namit-Goel.png"
+import d from "../img/clients/Sandeep-Syan.png"
+import e from "../img/clients/Kshitij-Prakash.png"
+import f from "../img/clients/Supreet-Singh-Narula.png"
+import g from "../img/clients/Kunal-Seth.png"
+import h from "../img/clients/Kaashi.png"
 
 export default function Profile() {
   const location = useLocation();
@@ -26,36 +37,69 @@ export default function Profile() {
   const testimonials = [
     {
       id: 1,
-      name: "Ms. Somya Srivastava",
-      position: "Director, Jabra Connect India Pvt. Ltd.",
-      image: Somya,
-      review: "They nailed our strategy with thoughtful execution, delivering results that exceeded expectations.",
-      companyLogo: d,
+      name: "Mr. Namit Goel",
+      position: "Founder & Director",
+      image: a,
+      review: "Wildpunch took our brands to the next level with their strategic and creative approach, which made our brands seen on digitals and made them visually strong.",
+      companyLogo: b1,
     },
     {
       id: 2,
-      name: "Mr. Aviral Jain",
-      position: "Director, Microlit",
-      image: Aviral,
-      review: "Flexible, strategic, and always on point. Their creative approach kept us ahead of the curve.",
-      companyLogo: microlit,
+      name: "Siddhart kapoor",
+      position: "Founder",
+      image: b,
+      review: "Wildpunch understood our legacy through knicks and knacks, they pushed our vision for the future and crafted an identity. This resulted in creating a modern brand that truly reflects who we are.",
+      companyLogo: b2,
     },
     {
       id: 3,
-      name: "Ms. Somya Srivastava",
-      position: "Director, Jabra Connect India Pvt. Ltd.",
-      image: Somya,
-      review: "They nailed our strategy with thoughtful execution, delivering results that exceeded expectations.",
-      companyLogo: d,
+      name: "Mr. Namit Goel",
+      position: "Founder & Director",
+      image: c,
+      review: "Wildpunch took our brands to the next level with their strategic and creative approach, which made our brands seen on digitals and made them visually strong.",
+      companyLogo: b3,
     },
     {
       id: 4,
-      name: "Mr. Aviral Jain",
-      position: "Director, Microlit",
-      image: Aviral,
-      review: "Flexible, strategic, and always on point. Their creative approach kept us ahead of the curve.",
-      companyLogo: microlit,
+      name: "Mr. Sandeep Syan",
+      position: "Head - Marketing  Assistant Vice President",
+      image: d,
+      review: "Creative, precise, and collaborative way of Wildpunch has brought our vision to life effortlessly, with first-class results.",
+      companyLogo: b4,
     },
+    {
+      id: 5,
+      name: "Mr. Kshitij Prakash",
+      position: "Senior Marketing Manager",
+      image: e,
+      review: "They nailed our strategy with thoughtful execution, delivering results that exceeded expectations. We couldn’t be happier!",
+      companyLogo: b5,
+    },
+    {
+      id: 6,
+      name: "Mr. Supreet Singh Narula",
+      position: "Director",
+      image: f,
+      review: "Flexible, strategic, and always on point. Wildpunch’s creative approach in our plan of the brand supported our plan to kick off the launch",
+      companyLogo: b6,
+    },
+    {
+      id: 7,
+      name: "Mr. Kunal Seth",
+      position: "Director",
+      image: g,
+      review: "With visionary designs, fresh content, and precise attention to details. They captured our brand’s essence perfectly.",
+      companyLogo: b7,
+    },
+    {
+      id: 8,
+      name: "Kaashi",
+      position: "Founder",
+      image: h,
+      review: "Choosing Wildpunch to manage Kashi’s marketing was a great decision. Their efforts have made a noticeable difference in our reach and engagement.",
+      companyLogo: b8,
+    },
+    
   ];
 
   const settings = {
