@@ -134,15 +134,17 @@ export default function Profile() {
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="card-container">
               <div className="testi-box">
-                <div className="img-name">
-                  <img src={testimonial.image} className="img-fluid" alt={testimonial.name} />
-                  <div className="name-post">
-                    <h5>{testimonial.name}</h5>
-                    <h6>{testimonial.position}</h6>
+                <div>
+                  <div className="img-name">
+                    <img src={testimonial.image} className="img-fluid" alt={testimonial.name} />
+                    <div className="name-post">
+                      <h5>{testimonial.name}</h5>
+                      <h6>{testimonial.position}</h6>
+                    </div>
                   </div>
-                </div>
-                <div className="review">
-                  <p>“{testimonial.review}ˮ</p>
+                  <div className="review">
+                    <p>“{testimonial.review}ˮ</p>
+                  </div>
                 </div>
                 <div className="company-logo">
                   <img src={testimonial.companyLogo} className="img-fluid" alt="Company Logo" />
