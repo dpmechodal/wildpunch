@@ -18,6 +18,8 @@ import SiddharthAgro from "./Components/SiddharthAgro";
 import SpringTek from "./Components/SpringTek";
 import TeaSaga from "./Components/TeaSaga";
 import TridentHills from "./Components/TridentHills";
+import Jabra from "./Components/Jabra";
+import Kokam from "./Components/Kokam";
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
             <Route path="/SpringTek" element={<SpringTek />} />
             <Route path="/TeaSaga" element={<TeaSaga />} />
             <Route path="/TridentHills" element={<TridentHills />} />
+            <Route path="/Jabra" element={<Jabra />} />
+            <Route path="/Kokam" element={<Kokam />} />
           </Routes>
         </Router>
       </div>

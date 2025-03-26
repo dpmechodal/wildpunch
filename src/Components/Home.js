@@ -108,22 +108,22 @@ const Home = () => {
         <div className="container">
           <div className="row g-lg-4 g-3">
             <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              {/* <Link to={"/"}> */}
+              <Link to={"/Kokam"}>
                 <div className="work-one">
                   <img src={gif1} className="img-fluid w-100" />
                   <h5>KOKAM PLY</h5>
                   <h6>Branding, Print, Digital</h6>
                 </div>
-              {/* </Link> */}
+              </Link>
             </div>
             <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              {/* <Link to={"/"}> */}
+              <Link to={"/Jabra"}>
                 <div className="work-one">
                   <img src={gif2} className="img-fluid w-100" />
                   <h5>JABRA</h5>
                   <h6>Branding, Print, Digital</h6>
                 </div>
-              {/* </Link> */}
+              </Link>
             </div>
             <div className="col-12" data-aos="fade-up" data-aos-duration="200">
               <Link to={"/Microlit"}>

@@ -15,6 +15,8 @@ import gif9 from "../img/Product/SIDDHARTH-AGRO.png";
 import gif10 from "../img/Product/SPRINGTEK.svg";
 import gif11 from "../img/Product/The-Tea-Saaga.svg";
 import gif12 from "../img/Product/Trident-Hills.svg";
+import gif13 from "../img/Product/jabra.gif";
+import gif14 from "../img/Product/Kokam.svg";
 // import rducbanner from "../img/RDUC/RDUC reel_V01.mp4";
 import CursorErrow from "./CursorErrow";
 import AOS from "aos";
@@ -85,7 +87,7 @@ const WildWildWork = () => {
                 <div className="work-one">    
                   <img src={gif5} className="img-fluid" />
                   <h5>MODERN SCHOOL</h5>
-                  <h6>Branding, Packaging, Digital</h6>
+                  <h6>Branding, Print</h6>
                 </div>
               </Link>
             </div>
@@ -94,7 +96,7 @@ const WildWildWork = () => {
                 <div className="work-one"> 
                   <img src={gif4} className="img-fluid" />
                   <h5>PETALS FURNITURE</h5>
-                  <h6>Branding, Packaging, Digital</h6>
+                  <h6>Branding, Digital</h6>
                 </div>
               </Link>
             </div>
@@ -106,7 +108,7 @@ const WildWildWork = () => {
                   </video> */}
                   <img src={gif8} className="img-fluid" />
                   <h5>RDUC</h5>
-                  <h6>Branding, Packaging, Digital</h6>
+                  <h6>Branding, Print, Digital</h6>
                 </div>
               </Link>
             </div>
@@ -124,7 +126,7 @@ const WildWildWork = () => {
                 <div className="work-one">   
                   <img src={gif10} className="img-fluid" />
                   <h5>SPRINGTEK</h5>
-                  <h6>Branding, Packaging, Digital</h6>
+                  <h6>Branding, Digital</h6>
                 </div>
               </Link>
             </div>
@@ -133,7 +135,7 @@ const WildWildWork = () => {
                 <div className="work-one">     
                   <img src={gif11} className="img-fluid" />
                   <h5>TEA SAGA</h5>
-                  <h6>Branding, Packaging, Digital</h6>
+                  <h6>Branding, Print, Digital</h6>
                 </div>
               </Link>
             </div>
@@ -142,7 +144,25 @@ const WildWildWork = () => {
                 <div className="work-one">     
                   <img src={gif12} className="img-fluid" />
                   <h5>TRIDENT HILLS</h5>
-                  <h6>Branding, Packaging, Digital</h6>
+                  <h6>Branding, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="600">
+              <Link to={"/Jabra"}>
+                <div className="work-one">     
+                  <img src={gif13} className="img-fluid" />
+                  <h5>JABRA</h5>
+                  <h6>Branding, Print, Digital</h6>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
+              <Link to={"/Kokam"}>
+                <div className="work-one">     
+                  <img src={gif14} className="img-fluid" />
+                  <h5>KOKAM PLY</h5>
+                  <h6>Branding, Print, Digital</h6>
                 </div>
               </Link>
             </div>
