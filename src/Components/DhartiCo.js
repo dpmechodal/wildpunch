@@ -60,7 +60,7 @@ const Home = () => {
       <div className="container-fluid first-section pl-pr-5">   
         <div className="row">
             <div className="col-12 mb-3 p-0">  
-                <img src={mainbanner} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti%20FINAL-03.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>    
         </div>     
       </div>
@@ -108,7 +108,7 @@ const Home = () => {
         <div className="row">
             <div className="col-12 mb-3 p-0">
                 <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
-                    <source src={dharti1} type="video/mp4" />
+                    <source src="https://wildpunch.in/wildpunch-assets/Dharti/1.mp4" type="video/mp4" />
                 </video>
             </div>    
         </div>     
@@ -117,29 +117,29 @@ const Home = () => {
         <div className="row">
             <div className="col-md-6 col-sm-6 col-12 mb-3 ps-0 pe-sm-2 pe-0">
                 <video autoPlay muted loop className="img-fluid" data-aos="fade-up" data-aos-duration="200">
-                    <source src={dharti2} type="video/mp4" />
+                    <source src="https://wildpunch.in/wildpunch-assets/Dharti/2.mp4" type="video/mp4" />
                 </video>
             </div>    
             <div className="col-md-6 col-sm-6 col-12 mb-3 pe-0 ps-sm-2 ps-0">
-                <img src={dharti3} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-05.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div> 
         </div>     
       </div>
       <div className="container-fluid pl-pr-5 mb-3">   
         <div className="row">
             <div className="col-12 p-0">
-                <img src={dharti4} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-06.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>    
         </div>     
       </div>
       <div className="container-fluid pl-pr-5">   
         <div className="row"> 
             <div className="col-md-6 col-sm-6 col-12 mb-3 ps-0 pe-sm-2 pe-0">
-                <img src={dharti5} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-07.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>   
             <div className="col-md-6 col-sm-6 col-12 mb-3 pe-0 ps-sm-2 ps-0">
                 <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
-                    <source src={dharti6} type="video/mp4" />
+                    <source src="https://wildpunch.in/wildpunch-assets/Dharti/5.mp4" type="video/mp4" />
                 </video>
             </div> 
         </div>     
@@ -147,18 +147,18 @@ const Home = () => {
       <div className="container-fluid pl-pr-5 mb-3">   
         <div className="row">
             <div className="col-12 p-0">
-                <img src={dharti7} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-08.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>    
         </div>     
       </div>
       <div className="container-fluid pl-pr-5">   
         <div className="row"> 
             <div className="col-md-6 col-sm-6 col-12 mb-3 ps-0 pe-sm-2 pe-0">
-                <img src={dharti8} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-09.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>   
             <div className="col-md-6 col-sm-6 col-12 mb-3 pe-0 ps-sm-2 ps-0">
                 <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
-                    <source src={dharti9} type="video/mp4" />
+                    <source src="https://wildpunch.in/wildpunch-assets/Dharti/6.mp4" type="video/mp4" />
                 </video>
             </div> 
         </div>     
@@ -166,44 +166,44 @@ const Home = () => {
       <div className="container-fluid pl-pr-5">   
         <div className="row">
             <div className="col-md-6 col-sm-6 col-12 mb-3 ps-0 pe-sm-2 pe-0">
-                <img src={dharti10} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-10.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>    
             <div className="col-md-6 col-sm-6 col-12 mb-3 pe-0 ps-sm-2 ps-0">
-                <img src={dharti11} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-11.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div> 
         </div>     
       </div>
       <div className="container-fluid pl-pr-5 mb-3">   
         <div className="row">
             <div className="col-12 p-0">
-                <img src={dharti12} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-12.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>    
         </div>     
       </div>
       <div className="container-fluid pl-pr-5">   
         <div className="row">
             <div className="col-md-6 col-sm-6 col-12 mb-3 ps-0 pe-sm-2 pe-0">
-                <img src={dharti13} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-13.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>    
             <div className="col-md-6 col-sm-6 col-12 mb-3 pe-0 ps-sm-2 ps-0">
-                <img src={dharti14} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-14.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div> 
         </div>     
       </div>
       <div className="container-fluid pl-pr-5 mb-3">   
         <div className="row">
             <div className="col-12 p-0">
-                <img src={dharti15} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-15.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>    
         </div>     
       </div>
       <div className="container-fluid pl-pr-5">   
         <div className="row"> 
             <div className="col-md-6 col-sm-6 col-12 mb-3 ps-0 pe-sm-2 pe-0">
-                <img src={dharti16} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-16.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>    
             <div className="col-md-6 col-sm-6 col-12 mb-3 pe-0 ps-sm-2 ps-0">
-                <img src={dharti17} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-17.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>  
         </div>     
       </div>
@@ -211,7 +211,7 @@ const Home = () => {
         <div className="row">
             <div className="col-12 p-0">
                 <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
-                    <source src={dharti18} type="video/mp4" />
+                    <source src="https://wildpunch.in/wildpunch-assets/Dharti/3.mp4" type="video/mp4" />
                 </video>
             </div>    
         </div>     
@@ -219,17 +219,17 @@ const Home = () => {
       <div className="container-fluid pl-pr-5">   
         <div className="row"> 
             <div className="col-md-6 col-sm-6 col-12 mb-3 ps-0 pe-sm-2 pe-0">
-                <img src={dharti19} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-19.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>    
             <div className="col-md-6 col-sm-6 col-12 mb-3 pe-0 ps-sm-2 ps-0">
-                <img src={dharti20} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-20.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>  
         </div>     
       </div>
       <div className="container-fluid pl-pr-5 mb-3">   
         <div className="row">
             <div className="col-12 p-0">
-                <img src={dharti21} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-21.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>    
         </div>     
       </div>
@@ -237,11 +237,11 @@ const Home = () => {
         <div className="row"> 
             <div className="col-md-6 col-sm-6 col-12 mb-3 ps-0 pe-sm-2 pe-0">
                 <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
-                    <source src={dharti22} type="video/mp4" />
+                    <source src="https://wildpunch.in/wildpunch-assets/Dharti/DhartiCo_Calm Capsules.mp4" type="video/mp4" />
                 </video>
             </div>    
             <div className="col-md-6 col-sm-6 col-12 mb-3 pe-0 ps-sm-2 ps-0">
-                <img src={dharti23} className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-22.jpg" className="img-fluid w-100" alt=""  data-aos="fade-up" data-aos-duration="200"/>
             </div>  
         </div>     
       </div>
@@ -249,7 +249,7 @@ const Home = () => {
         <div className="row">
             <div className="col-12 mb-3 p-0">
                 <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
-                    <source src={dharti24} type="video/mp4" />
+                    <source src="https://wildpunch.in/wildpunch-assets/Dharti/4.mp4" type="video/mp4" />
                 </video>
             </div>    
         </div>     
@@ -257,11 +257,11 @@ const Home = () => {
       <div className="container-fluid pl-pr-5">   
         <div className="row">
             <div className="col-md-6 col-sm-6 col-12 mb-3 ps-0 pe-sm-2 pe-0">
-                <img src={dharti25} className="img-fluid w-100" alt="" data-aos="fade-up" data-aos-duration="200"/>
+                <img src="https://wildpunch.in/wildpunch-assets/Dharti/Dharti FINAL-23.jpg" className="img-fluid w-100" alt="" data-aos="fade-up" data-aos-duration="200"/>
             </div>    
             <div className="col-md-6 col-sm-6 col-12 mb-3 pe-0 ps-sm-2 ps-0">
                 <video autoPlay muted loop className="img-fluid w-100" data-aos="fade-up" data-aos-duration="200">
-                    <source src={dharti26} type="video/mp4" />
+                    <source src="https://wildpunch.in/wildpunch-assets/Dharti/DhartiCo_Pills.mp4" type="video/mp4" />
                 </video>
             </div> 
         </div>     

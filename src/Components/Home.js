@@ -67,24 +67,37 @@ const Home = () => {
       {/* <Splash /> */}
       <Header />
       <div className="first-section bg-dark">
-        <div
-          className="container py-300 main-head">
+        <div className="container py-300 main-head">
           <h1 className="extra-size" data-aos="fade-up" data-aos-duration="200">
             Catalysts for Change.
             <br />
             Agitators for Growth.
           </h1>
-          <p className="mb-0 d-sm-block d-none" data-aos="fade-up" data-aos-duration="400">
-            We're the spark that ignites brands. As agents of change, <br />we stir the pot, challenge the norm <br />and disrupt industries.
+          <p
+            className="mb-0 d-sm-block d-none"
+            data-aos="fade-up"
+            data-aos-duration="400"
+          >
+            We're the spark that ignites brands. As agents of change, <br />
+            we stir the pot, challenge the norm <br />
+            and disrupt industries.
           </p>
-          <p className="mb-0 d-sm-none d-block" data-aos="fade-up" data-aos-duration="400">
-            We're the spark that ignites brands. <br />As agents of change, we stir the pot, <br />challenge the norm and disrupt industries.
+          <p
+            className="mb-0 d-sm-none d-block"
+            data-aos="fade-up"
+            data-aos-duration="400"
+          >
+            We're the spark that ignites brands. <br />
+            As agents of change, we stir the pot, <br />
+            challenge the norm and disrupt industries.
           </p>
         </div>
       </div>
       <div className="sec-section bg-second">
         <div className="container py-200">
-          <p data-aos="fade-up" data-aos-duration="200">WHO WE ARE</p>
+          <p data-aos="fade-up" data-aos-duration="200">
+            WHO WE ARE
+          </p>
           <h2 data-aos="fade-up" data-aos-duration="400">
             Not just an ad agency,
             <br />
@@ -107,7 +120,11 @@ const Home = () => {
       <div className="">
         <div className="container">
           <div className="row g-lg-4 g-3">
-            <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-6 col-md-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <Link to={"/Kokam"}>
                 <div className="work-one">
                   <img src={gif1} className="img-fluid w-100" />
@@ -116,7 +133,11 @@ const Home = () => {
                 </div>
               </Link>
             </div>
-            <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-6 col-md-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <Link to={"/Jabra"}>
                 <div className="work-one">
                   <img src={gif2} className="img-fluid w-100" />
@@ -134,18 +155,26 @@ const Home = () => {
                 </div>
               </Link>
             </div>
-            <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-6 col-md-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <Link to={"/TridentHills"}>
-                <div className="work-one">    
+                <div className="work-one">
                   <img src={gif4} className="img-fluid w-100" />
                   <h5>TRIDENT REALTY</h5>
                   <h6>Branding, Print, Digital</h6>
                 </div>
               </Link>
             </div>
-            <div className="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-6 col-md-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <Link to={"/SpringTek"}>
-                <div className="work-one">         
+                <div className="work-one">
                   <img src={gif5} className="img-fluid w-100" />
                   <h5>SPRINGTEK</h5>
                   <h6>Print, Digital</h6>
@@ -165,71 +194,106 @@ const Home = () => {
         </div>
       </div>
       <div className="sec-section bg-third">
-        <div
-          className="container py-200">
-          <p data-aos="fade-up" data-aos-duration="200">WHAT WE DO</p>
+        <div className="container py-200">
+          <p data-aos="fade-up" data-aos-duration="200">
+            WHAT WE DO
+          </p>
           <h4 data-aos="fade-up" data-aos-duration="400">
-            Everyone has great Ideas but the world<br/> has always needed executioners.<br/>
+            Everyone has great Ideas but the world
+            <br /> has always needed executioners.
+            <br />
             We are the right mix of
           </h4>
           <h2 data-aos="fade-up" data-aos-duration="600">
             <b>Ideas, strategy, tech & execution.</b>
           </h2>
           <div className="row g-xl-5 g-4 head-color">
-            <div className="col-lg-4 col-sm-6 col-6" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-4 col-sm-6 col-6"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <div className="research">
                 <h4>Research</h4>
                 <p>Your brand's compass.</p>
                 <p>We find your north.</p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-6" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-4 col-sm-6 col-6"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <div className="research">
                 <h4>Branding</h4>
                 <p>Your brand's soul.</p>
-                <p>We find your north.</p>
+                <p>We give it a voice. </p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-6" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-4 col-sm-6 col-6"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <div className="research">
                 <h4>Advertising</h4>
-                <p>Your brand's compass.</p>
+                <p>Your brand's megaphone.</p>
                 <p>We make it heard.</p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-6" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-4 col-sm-6 col-6"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <div className="research">
                 <h4>Design</h4>
                 <p>Your brand's blueprint.</p>
-                <p>We find your north.</p>
+                <p>We craft the masterpiece.</p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-6" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-4 col-sm-6 col-6"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <div className="research">
                 <h4>Marketing</h4>
                 <p>Your brand's roadmap.</p>
                 <p>We chart the course.</p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-6" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-4 col-sm-6 col-6"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <div className="research">
                 <h4>Digital</h4>
                 <p>Your brand's universe.</p>
                 <p>We create its galaxies.</p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-6" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-4 col-sm-6 col-6"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <div className="research">
                 <h4>Films & Production</h4>
                 <p>Your brand's story.</p>
                 <p>We bring it to life.</p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-6" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-lg-4 col-sm-6 col-6"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <div className="research">
                 <h4>Influencer Marketing</h4>
-                <p>Your brand's compass.</p>
-                <p>We find your north.</p>
+                <p>Your brand's spotlight.</p>
+                <p>We shine it bright.</p>
               </div>
             </div>
           </div>
@@ -241,9 +305,10 @@ const Home = () => {
         </div>
       </div>
       <div className="sec-section bg-secound">
-        <div
-          className="container py-200">
-          <p data-aos="fade-up" data-aos-duration="200">OUR CLIENTS</p>
+        <div className="container py-200">
+          <p data-aos="fade-up" data-aos-duration="200">
+            OUR CLIENTS
+          </p>
           <h2 data-aos="fade-up" data-aos-duration="200">
             <b>What We PUNCHED</b>
           </h2>
@@ -253,87 +318,238 @@ const Home = () => {
           </h4>
           <div className="row align-items-center mt-1 g-lg-5 g-4 hw-img">
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={a} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={a}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={b} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={b}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={y} alt="" className="img-fluid h-auto"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={y}
+                alt=""
+                className="img-fluid h-auto"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={c} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={c}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={d} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={d}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={e} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={e}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={f} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={f}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={g} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={g}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={h} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={h}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={i} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={i}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={j} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={j}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={k} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={k}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={l} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={l}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={m} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={m}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={n} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={n}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={o} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={o}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={p} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={p}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={r} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={r}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={s} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={s}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={t} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={t}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={u} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={u}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={v} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={v}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={w} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={w}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={x} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={x}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
-              <img src={q} alt="" className="img-fluid"  data-aos="fade-up" data-aos-duration="200"/>
+              <img
+                src={q}
+                alt=""
+                className="img-fluid"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              />
             </div>
           </div>
         </div>
       </div>
       <div className="sec-section bg-four">
-        <div
-          className="container py-200">
-          <p data-aos="fade-up" data-aos-duration="200">HOW WE DO IT IN THE WILD</p>
+        <div className="container py-200">
+          <p data-aos="fade-up" data-aos-duration="200">
+            HOW WE DO IT IN THE WILD
+          </p>
           <h2 data-aos="fade-up" data-aos-duration="200">
             <b>The WILD Approach</b>
           </h2>
@@ -349,41 +565,70 @@ const Home = () => {
         </div>
       </div>
       <div className="sec-section bg-third">
-        <div
-          className="container py-200 pb-0">
-          <p className="mb-50" data-aos="fade-up" data-aos-duration="200">WILDPUNCH AT WORK</p>
+        <div className="container py-200 pb-0">
+          <p className="mb-50" data-aos="fade-up" data-aos-duration="200">
+            WILDPUNCH AT WORK
+          </p>
         </div>
         <div>
-          <div className="container-fluid py-200 pt-0 px-0" data-aos="fade-up" data-aos-duration="200">
+          <div
+            className="container-fluid py-200 pt-0 px-0"
+            data-aos="fade-up"
+            data-aos-duration="200"
+          >
             <Work />
           </div>
         </div>
       </div>
-      <div className="container-fluid py-200 px-0" data-aos="fade-up" data-aos-duration="200">
+      <div
+        className="container-fluid py-200 px-0"
+        data-aos="fade-up"
+        data-aos-duration="200"
+      >
         <Testimonials />
       </div>
-      <div className="container-fluid px-0 bg-mar" data-aos="fade-up" data-aos-duration="200">
+      <div
+        className="container-fluid px-0 bg-mar"
+        data-aos="fade-up"
+        data-aos-duration="200"
+      >
         <Marquee />
       </div>
       <div className="sec-section">
-        <div
-          className="container py-200">
+        <div className="container py-200">
           <div className="row g-lg-4 g-3 align-items-center">
             <div className="col-md-6 col-12">
               <h2 data-aos="fade-up" data-aos-duration="200">
                 <b>Hello there,</b>
               </h2>
-              <h4 className="text-black mb-md-4 mb-3 d-md-block d-none" data-aos="fade-up" data-aos-duration="200">
-                What makes us different?<br/> We will be there, <b>Always!</b>
+              <h4
+                className="text-black mb-md-4 mb-3 d-md-block d-none"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              >
+                What makes us different?
+                <br /> We will be there, <b>Always!</b>
               </h4>
-              <h4 className="text-black mb-md-4 mb-3 d-md-none d-block" data-aos="fade-up" data-aos-duration="200">
+              <h4
+                className="text-black mb-md-4 mb-3 d-md-none d-block"
+                data-aos="fade-up"
+                data-aos-duration="200"
+              >
                 What makes us different? We will be there, <b>Always!</b>
               </h4>
-              <h4 className="text-black" data-aos="fade-up" data-aos-duration="300">
+              <h4
+                className="text-black"
+                data-aos="fade-up"
+                data-aos-duration="300"
+              >
                 Unable to reach customers? <b>Reach out to us!</b>
               </h4>
             </div>
-            <div className="col-md-6 col-12" data-aos="fade-up" data-aos-duration="400">
+            <div
+              className="col-md-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="400"
+            >
               <form className="hello-form">
                 <div class="mb-3">
                   <input type="text" class="form-control" placeholder="Name" />
@@ -411,7 +656,8 @@ const Home = () => {
                 </div>
                 <div className="mt-md-5 mt-4 ">
                   <Link to={"#"}>
-                    GET STARTED <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
+                    GET STARTED{" "}
+                    <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
                   </Link>
                 </div>
               </form>

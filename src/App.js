@@ -20,6 +20,8 @@ import TeaSaga from "./Components/TeaSaga";
 import TridentHills from "./Components/TridentHills";
 import Jabra from "./Components/Jabra";
 import Kokam from "./Components/Kokam";
+import Zataaka from "./Components/Zataaka";
+import Boisson from "./Components/Boisson";
 
 function App() {
   return (
@@ -46,6 +48,8 @@ function App() {
             <Route path="/TridentHills" element={<TridentHills />} />
             <Route path="/Jabra" element={<Jabra />} />
             <Route path="/Kokam" element={<Kokam />} />
+            <Route path="/Zataaka" element={<Zataaka />} />
+            <Route path="/Boisson" element={<Boisson />} />
           </Routes>
         </Router>
       </div>

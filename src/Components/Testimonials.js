@@ -5,22 +5,22 @@ import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useLocation } from "react-router-dom";
-import b1 from "../img/brand-logos/Loom.png"
-import b2 from "../img/brand-logos/Modern School.png"
-import b3 from "../img/brand-logos/Petals.png"
-import b4 from "../img/brand-logos/Trident Hills.png"
-import b5 from "../img/brand-logos/jabra.svg"
-import b6 from "../img/brand-logos/Kokam.png"
-import b7 from "../img/brand-logos/Shalimar.png"
-import b8 from "../img/brand-logos/Kashi.png"
-import a from "../img/clients/Namit-Goel.png"
-import b from "../img/clients/Siddhart-kapoor.png"
-import c from "../img/clients/Namit-Goel.png"
-import d from "../img/clients/Sandeep-Syan.png"
-import e from "../img/clients/Kshitij-Prakash.png"
-import f from "../img/clients/Supreet-Singh-Narula.png"
-import g from "../img/clients/Kunal-Seth.png"
-import h from "../img/clients/Kaashi.png"
+import b1 from "../img/brand-logos/Loom.png";
+import b2 from "../img/brand-logos/Modern School.png";
+import b3 from "../img/brand-logos/Petals.png";
+import b4 from "../img/brand-logos/Trident Hills.png";
+import b5 from "../img/brand-logos/jabra.svg";
+import b6 from "../img/brand-logos/Kokam.png";
+import b7 from "../img/brand-logos/Shalimar.png";
+import b8 from "../img/brand-logos/Kashi.png";
+import a from "../img/clients/Namit-Goel.png";
+import b from "../img/clients/Siddhart-kapoor.png";
+import c from "../img/clients/Namit-Goel.png";
+import d from "../img/clients/Sandeep-Syan.png";
+import e from "../img/clients/Kshitij-Prakash.png";
+import f from "../img/clients/Supreet-Singh-Narula.png";
+import g from "../img/clients/Kunal-Seth.png";
+import h from "../img/clients/Kaashi.png";
 
 export default function Profile() {
   const location = useLocation();
@@ -40,15 +40,17 @@ export default function Profile() {
       name: "Mr. Namit Goel",
       position: "Founder & Director",
       image: a,
-      review: "Wildpunch took our brands to the next level with their strategic and creative approach, which made our brands seen on digitals and made them visually strong.",
+      review:
+        "Entrusting all three brands to Wildpunch speaks volumes about their ability to deliver consistently. Their deep understanding of the D2C market, combined with a strategic and creative approach, made each brand visually strong and highly engaging. Truly impressive results.",
       companyLogo: b1,
     },
     {
       id: 2,
-      name: "Siddhart kapoor",
+      name: " Mr. Sidhhartha Kapoor",
       position: "Founder",
       image: b,
-      review: "Wildpunch understood our legacy through knicks and knacks, they pushed our vision for the future and crafted an identity. This resulted in creating a modern brand that truly reflects who we are.",
+      review:
+        "Wildpunch understood our legacy through knicks and knacks, they pushed our vision for the future and crafted an identity. This resulted in creating a modern brand that truly reflects who we are.",
       companyLogo: b2,
     },
     {
@@ -56,7 +58,8 @@ export default function Profile() {
       name: "Mr. Namit Goel",
       position: "Founder & Director",
       image: c,
-      review: "Wildpunch took our brands to the next level with their strategic and creative approach, which made our brands seen on digitals and made them visually strong.",
+      review:
+        "Wildpunch took our brands to the next level with their strategic and creative approach, which made our brands seen on digitals and made them visually strong.",
       companyLogo: b3,
     },
     {
@@ -64,7 +67,8 @@ export default function Profile() {
       name: "Mr. Sandeep Syan",
       position: "Head - Marketing  Assistant Vice President",
       image: d,
-      review: "Creative, precise, and collaborative way of Wildpunch has brought our vision to life effortlessly, with first-class results.",
+      review:
+        "Creative, precise, and collaborative way of Wildpunch has brought our vision to life effortlessly, with first-class results.",
       companyLogo: b4,
     },
     {
@@ -72,7 +76,8 @@ export default function Profile() {
       name: "Mr. Kshitij Prakash",
       position: "Senior Marketing Manager",
       image: e,
-      review: "They nailed our strategy with thoughtful execution, delivering results that exceeded expectations. We couldn’t be happier!",
+      review:
+        "They nailed our strategy with thoughtful execution, delivering results that exceeded expectations. We couldn’t be happier!",
       companyLogo: b5,
     },
     {
@@ -80,7 +85,8 @@ export default function Profile() {
       name: "Mr. Supreet Singh Narula",
       position: "Director",
       image: f,
-      review: "Flexible, strategic, and always on point. Wildpunch’s creative approach in our plan of the brand supported our plan to kick off the launch",
+      review:
+        "Wildpunch crafted a dynamic and cohesive brand identity for Kokam Plywood. Their strategic insight and creative execution gave our brand a polished and professional presence. We truly value their expertise and dedication.",
       companyLogo: b6,
     },
     {
@@ -88,18 +94,19 @@ export default function Profile() {
       name: "Mr. Kunal Seth",
       position: "Director",
       image: g,
-      review: "With visionary designs, fresh content, and precise attention to details. They captured our brand’s essence perfectly.",
+      review:
+        "With visionary designs, fresh content, and precise attention to details. They captured our brand’s essence perfectly.",
       companyLogo: b7,
     },
     {
       id: 8,
-      name: "Kaashi",
+      name: "Mr. Shreyansh Kapoor",
       position: "Founder",
       image: h,
-      review: "Choosing Wildpunch to manage Kashi’s marketing was a great decision. Their efforts have made a noticeable difference in our reach and engagement.",
+      review:
+        "Choosing Wildpunch to manage Kashi’s marketing was a great decision. Their efforts have made a noticeable difference in our reach and engagement.",
       companyLogo: b8,
     },
-    
   ];
 
   const settings = {
@@ -136,7 +143,11 @@ export default function Profile() {
               <div className="testi-box">
                 <div>
                   <div className="img-name">
-                    <img src={testimonial.image} className="img-fluid" alt={testimonial.name} />
+                    <img
+                      src={testimonial.image}
+                      className="img-fluid"
+                      alt={testimonial.name}
+                    />
                     <div className="name-post">
                       <h5>{testimonial.name}</h5>
                       <h6>{testimonial.position}</h6>
@@ -147,7 +158,11 @@ export default function Profile() {
                   </div>
                 </div>
                 <div className="company-logo">
-                  <img src={testimonial.companyLogo} className="img-fluid" alt="Company Logo" />
+                  <img
+                    src={testimonial.companyLogo}
+                    className="img-fluid"
+                    alt="Company Logo"
+                  />
                 </div>
               </div>
             </div>
@@ -160,7 +175,10 @@ export default function Profile() {
             <i className="fa-solid fa-arrow-left-long"></i>
           </div>
           <div className="slider-progress peo-progress">
-            <div className="progress-bar peo-bar" style={{ width: `${progress}%` }}></div>
+            <div
+              className="progress-bar peo-bar"
+              style={{ width: `${progress}%` }}
+            ></div>
           </div>
           <div className="next-arrow bg-people-color" onClick={goToNext}>
             <i className="fa-solid fa-arrow-right-long"></i>

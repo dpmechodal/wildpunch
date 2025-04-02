@@ -32,12 +32,18 @@ const WildWeDo = () => {
       <Header />
       <div className="sec-section bg-third bg-black first-section">
         <div className="container py-200 pro-max">
-          <p data-aos="fade-up" data-aos-duration="200">WILD WE DO</p>
+          <p data-aos="fade-up" data-aos-duration="200">
+            WILD WE DO
+          </p>
           <h4 data-aos="fade-up" data-aos-duration="400">
             Everyone has great Ideas, the world has always needed executioners.
             We are the right mix of
           </h4>
-          <h2 className="mb-0 extra-size" data-aos="fade-up" data-aos-duration="400">
+          <h2
+            className="mb-0 extra-size"
+            data-aos="fade-up"
+            data-aos-duration="400"
+          >
             <b>Ideas, strategy, tech & execution.</b>
           </h2>
         </div>
@@ -45,8 +51,12 @@ const WildWeDo = () => {
       <div className="sec-section bg-third">
         <div className="container py-200">
           <div className="row g-xl-5 g-4">
-            <div className="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="100">
-              <div className="research mobile-re">
+            <div
+              className="col-lg-4 col-sm-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="100"
+            >
+              <div className="research influencer  mobile-re">
                 <h4>Research</h4>
                 <h6>Your brand's compass.</h6>
                 <h6>We find your north.</h6>
@@ -59,11 +69,15 @@ const WildWeDo = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="200">
-              <div className="research mobile-re">
+            <div
+              className="col-lg-4 col-sm-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
+              <div className="research influencer mobile-re">
                 <h4>Branding</h4>
                 <h6>Your brand's soul.</h6>
-                <h6>We find your north.</h6>
+                <h6>We give it a voice. </h6>
                 <ul>
                   <li>Brand Identity Design</li>
                   <li>Naming & Verbal Strategy</li>
@@ -73,10 +87,14 @@ const WildWeDo = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="300">
-              <div className="research mobile-re">
+            <div
+              className="col-lg-4 col-sm-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="300"
+            >
+              <div className="research influencer mobile-re">
                 <h4>Advertising</h4>
-                <h6>Your brand's compass.</h6>
+                <h6>Your brand's megaphone.</h6>
                 <h6>We make it heard.</h6>
                 <ul>
                   <li>Media Planning</li>
@@ -87,11 +105,15 @@ const WildWeDo = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="400">
-              <div className="research mobile-re">
+            <div
+              className="col-lg-4 col-sm-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="400"
+            >
+              <div className="research influencer mobile-re">
                 <h4>Design</h4>
                 <h6>Your brand's blueprint.</h6>
-                <h6>We find your north.</h6>
+                <h6>We craft the masterpiece.</h6>
                 <ul>
                   <li>Graphic Design</li>
                   <li>Print Design</li>
@@ -101,8 +123,12 @@ const WildWeDo = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="500">
-              <div className="research mobile-re">
+            <div
+              className="col-lg-4 col-sm-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="500"
+            >
+              <div className="research influencer mobile-re">
                 <h4>Marketing</h4>
                 <h6>Your brand's roadmap.</h6>
                 <h6>We chart the course.</h6>
@@ -115,8 +141,12 @@ const WildWeDo = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="600">
-              <div className="research mobile-re">
+            <div
+              className="col-lg-4 col-sm-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              <div className="research influencer mobile-re">
                 <h4>Digital</h4>
                 <h6>Your brand's universe.</h6>
                 <h6>We create its galaxies.</h6>
@@ -129,8 +159,12 @@ const WildWeDo = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="700">
-              <div className="research mobile-re">
+            <div
+              className="col-lg-4 col-sm-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
+              <div className="research influencer mobile-re">
                 <h4>Films & Production</h4>
                 <h6>Your brand's story.</h6>
                 <h6>We bring it to life.</h6>
@@ -143,11 +177,15 @@ const WildWeDo = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="800">
-              <div className="research mobile-re">
+            <div
+              className="col-lg-4 col-sm-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
+              <div className="research influencer mobile-re">
                 <h4>Influencer Marketing</h4>
-                <h6>Your brand's compass.</h6>
-                <h6>We find your north.</h6>
+                <h6>Your brand's spotlight.</h6>
+                <h6>We shine it bright.</h6>
                 <ul>
                   <li>Influencer Identification</li>
                   <li>Content Creation</li>
@@ -167,11 +205,19 @@ const WildWeDo = () => {
               <h2 data-aos="fade-up" data-aos-duration="200">
                 <b>The WILD Approach</b>
               </h2>
-              <h4 className="text-black mb-md-4 mb-3" data-aos="fade-up" data-aos-duration="400">
+              <h4
+                className="text-black mb-md-4 mb-3"
+                data-aos="fade-up"
+                data-aos-duration="400"
+              >
                 At Wildpunch, we believe that extraordinary results stem from an
                 extraordinary process.
               </h4>
-              <h4 className="text-black mb-0" data-aos="fade-up" data-aos-duration="600">
+              <h4
+                className="text-black mb-0"
+                data-aos="fade-up"
+                data-aos-duration="600"
+              >
                 Our WILD approach is a meticulous blend of creativity and
                 strategy, designed to deliver campaigns that truly bring your
                 brand out there in the market.
@@ -183,7 +229,11 @@ const WildWeDo = () => {
       <div className="bg-four">
         <div className="container py-200 sec-section contact-lets">
           <div className="row g-xl-5 g-4">
-            <div className="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="col-xl-3 col-lg-4 col-md-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <div className="sec-section">
                 <div className="big-small mobile-small">
                   <h2>
@@ -201,7 +251,11 @@ const WildWeDo = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="400">
+            <div
+              className="col-xl-3 col-lg-4 col-md-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="400"
+            >
               <div className="sec-section">
                 <div className="big-small mobile-small">
                   <h2>
@@ -219,7 +273,11 @@ const WildWeDo = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="600">
+            <div
+              className="col-xl-3 col-lg-4 col-md-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
               <div className="sec-section">
                 <div className="big-small mobile-small">
                   <h2>
@@ -237,7 +295,11 @@ const WildWeDo = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="800">
+            <div
+              className="col-xl-3 col-lg-4 col-md-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
               <div className="sec-section">
                 <div className="big-small mobile-small">
                   <h2>
@@ -256,10 +318,14 @@ const WildWeDo = () => {
               </div>
             </div>
           </div>
-          <h4 className="text-black mt-50 mb-0" data-aos="fade-up" data-aos-duration="300">
-            The WILD approach is more than just a process, itʼs our DNA. <br/>It's
-            about pushing boundaries, challenging the status quo, and creating
-            campaigns that leave a WILD impression.
+          <h4
+            className="text-black mt-50 mb-0"
+            data-aos="fade-up"
+            data-aos-duration="300"
+          >
+            The WILD approach is more than just a process, itʼs our DNA. <br />
+            It's about pushing boundaries, challenging the status quo, and
+            creating campaigns that leave a WILD impression.
           </h4>
         </div>
       </div>
@@ -268,22 +334,54 @@ const WildWeDo = () => {
           <h6>KEY SECTORS</h6>
           <div className="d-sm-block d-none">
             <div className="education mt-50">
-              <p data-aos="fade-up" data-aos-duration="200">EDUCATION</p>
-              <p data-aos="fade-up" data-aos-duration="200">GOVERNMENT</p>
-              <p data-aos="fade-up" data-aos-duration="300">REAL ESTATE</p>
-              <p data-aos="fade-up" data-aos-duration="400">FMCG</p>
-              <p data-aos="fade-up" data-aos-duration="500">TECH</p>
-              <p data-aos="fade-up" data-aos-duration="600">AGRO</p>
-              <p data-aos="fade-up" data-aos-duration="700">RETAIL</p>
-              <p data-aos="fade-up" data-aos-duration="800">FOOD & BEVERAGES</p>
-              <p data-aos="fade-up" data-aos-duration="900">HEALTHCARE</p>
-              <p data-aos="fade-up" data-aos-duration="1000">NGO</p>
-              <p data-aos="fade-up" data-aos-duration="1100">JEWELLERY</p>
-              <p data-aos="fade-up" data-aos-duration="1200">FASHION</p>
-              <p data-aos="fade-up" data-aos-duration="1300">WELLNESS</p>
-              <p data-aos="fade-up" data-aos-duration="1400">SPORTS</p>
-              <p data-aos="fade-up" data-aos-duration="1500">INDUSTRIAL</p>
-              <p data-aos="fade-up" data-aos-duration="1600">AUTOMOBILE</p>
+              <p data-aos="fade-up" data-aos-duration="200">
+                EDUCATION
+              </p>
+              <p data-aos="fade-up" data-aos-duration="200">
+                GOVERNMENT
+              </p>
+              <p data-aos="fade-up" data-aos-duration="300">
+                REAL ESTATE
+              </p>
+              <p data-aos="fade-up" data-aos-duration="400">
+                FMCG
+              </p>
+              <p data-aos="fade-up" data-aos-duration="500">
+                TECH
+              </p>
+              <p data-aos="fade-up" data-aos-duration="600">
+                AGRO
+              </p>
+              <p data-aos="fade-up" data-aos-duration="700">
+                RETAIL
+              </p>
+              <p data-aos="fade-up" data-aos-duration="800">
+                FOOD & BEVERAGES
+              </p>
+              <p data-aos="fade-up" data-aos-duration="900">
+                HEALTHCARE
+              </p>
+              <p data-aos="fade-up" data-aos-duration="1000">
+                NGO
+              </p>
+              <p data-aos="fade-up" data-aos-duration="1100">
+                JEWELLERY
+              </p>
+              <p data-aos="fade-up" data-aos-duration="1200">
+                FASHION
+              </p>
+              <p data-aos="fade-up" data-aos-duration="1300">
+                WELLNESS
+              </p>
+              <p data-aos="fade-up" data-aos-duration="1400">
+                SPORTS
+              </p>
+              <p data-aos="fade-up" data-aos-duration="1500">
+                INDUSTRIAL
+              </p>
+              <p data-aos="fade-up" data-aos-duration="1600">
+                AUTOMOBILE
+              </p>
             </div>
           </div>
           <div className="d-sm-none d-block mt-50">
@@ -294,22 +392,37 @@ const WildWeDo = () => {
       <div className="bg-third">
         <div className="container py-200 main-head main-foot">
           <div className="wild-flex">
-            <h1 className="mb-0 extra-size" data-aos="fade-up" data-aos-duration="200">
+            <h1
+              className="mb-0 extra-size"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <span>LET’S TALK.</span>
               <br />
               Got a project?
             </h1>
-            <div className="sec-section d-flex" data-aos="fade-up" data-aos-duration="200">
+            <div
+              className="sec-section d-flex"
+              data-aos="fade-up"
+              data-aos-duration="200"
+            >
               <a href="/Contact">
                 Contact Us <i class="fa-solid fa-arrow-right ms-2 arrow1"></i>
               </a>
             </div>
           </div>
-          <p className="mt-4 pt-4 mb-0 border-top border-bottom-0" data-aos="fade-up" data-aos-duration="200">
+          <p
+            className="mt-4 pt-4 mb-0 border-top border-bottom-0"
+            data-aos="fade-up"
+            data-aos-duration="200"
+          >
             Discover boundless opportunities for collaboration with us. We
-            welcome brands from <br/>every sector to join us in crafting compelling
-            stories and strategies. Let's transcend boundaries <br/>together and
-            create impactful experiences that resonate with audiences worldwide.<br/>
+            welcome brands from <br />
+            every sector to join us in crafting compelling stories and
+            strategies. Let's transcend boundaries <br />
+            together and create impactful experiences that resonate with
+            audiences worldwide.
+            <br />
             Your brand's journey begins here.
           </p>
         </div>
